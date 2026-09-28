@@ -911,6 +911,126 @@
       "text": "Plastic shopping bags are used widely and cause many environmental problems. Some people say they should be banned.\n\nTo what extent do you agree or disagree?"
     },
     {
+      "id": "opinion-183",
+      "type": "opinion",
+      "text": "These days, if people have health problems, many do not visit doctors. They try to get better at home by themselves.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-184",
+      "type": "opinion",
+      "text": "In many countries, large infrastructure projects are increasingly funded and managed by private companies rather than governments.\n\nTo what extent do you think this is a positive or negative development?"
+    },
+    {
+      "id": "opinion-185",
+      "type": "opinion",
+      "text": "Nowadays, more people travel abroad for tourism than ever before.\n\nDo you think this is a positive or negative development?"
+    },
+    {
+      "id": "opinion-186",
+      "type": "opinion",
+      "text": "Today many teenagers rely greatly on technology when learning.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-187",
+      "type": "opinion",
+      "text": "In many countries nowadays, consumers can go to a supermarket and buy food produced all over the world.\n\nDo you think this is a positive or negative development?"
+    },
+    {
+      "id": "opinion-188",
+      "type": "opinion",
+      "text": "Nowadays, there is more and more competition for getting into university.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-189",
+      "type": "opinion",
+      "text": "In many societies, there is a growing emphasis on individualism, with people prioritizing their personal goals and desires over collective interests.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-190",
+      "type": "opinion",
+      "text": "Around the world, rural people are moving to cities and urban areas, so populations in the countryside are decreasing.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-191",
+      "type": "opinion",
+      "text": "Fossil fuels are the main source of energy around the world today. In some countries, the use of alternative sources of energy is replacing fossil fuels.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-192",
+      "type": "opinion",
+      "text": "Today, many people use the internet and smartphones to transfer money to friends, family, and businesses.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-193",
+      "type": "opinion",
+      "text": "Nowadays, an increasing number of people with health problems are using alternative medicines and treatments instead of visiting their normal doctor.\n\nDo you think this is a positive or negative development?"
+    },
+    {
+      "id": "opinion-194",
+      "type": "opinion",
+      "text": "Many cities are now turning parks and farmland into new housing developments.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-195",
+      "type": "opinion",
+      "text": "Many people put their personal information online (address, telephone number, and so on) for purposes such as signing up for social networks or online banking.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-196",
+      "type": "opinion",
+      "text": "Nowadays some older people choose to live in retirement communities and centers with other people, rather than living with their adult children.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-197",
+      "type": "opinion",
+      "text": "Film stars and celebrities often share their views on public matters that have little to do with their profession.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-198",
+      "type": "opinion",
+      "text": "Some countries import a large amount of food from other parts of the world.\n\nTo what extent is this a positive or negative trend?"
+    },
+    {
+      "id": "opinion-199",
+      "type": "opinion",
+      "text": "Many people nowadays tend to marry and have children in their thirties rather than at a younger age.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-200",
+      "type": "opinion",
+      "text": "Some countries invest in specialized sports facilities for top athletes but not for the average people.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-201",
+      "type": "opinion",
+      "text": "The number of people who are interested in and wearing fashionable clothes is increasing.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-202",
+      "type": "opinion",
+      "text": "Many local languages today are dying out due to the rise of languages like English.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-203",
+      "type": "opinion",
+      "text": "Due to television and the internet it is easier today for a large number of people to become famous.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-204",
+      "type": "opinion",
+      "text": "More and more people today are becoming overly dependent on the internet and phones.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-205",
+      "type": "opinion",
+      "text": "Nowadays more tasks at home and work are being performed by robots.\n\nIs this a negative or positive development?"
+    },
+    {
+      "id": "opinion-206",
+      "type": "opinion",
+      "text": "Nowadays because of digital technology it is possible for not only studios but also individuals to produce their own films.\n\nDo you think this is a positive or negative development?"
+    },
+    {
       "id": "discussion-001",
       "type": "discussion",
       "text": "Some believe that pets should stay at home at all times, while others feel they should be allowed outside the home.\n\nDiscuss both views and give your own opinion."
@@ -2259,6 +2379,11 @@
       "id": "two-part-057",
       "type": "two-part",
       "text": "Nowadays many people choose to be self-employed, rather than to work for a company or organisation.\n\nWhy might this be the case?\nWhat could be the disadvantages of being self-employed?"
+    },
+    {
+      "id": "two-part-058",
+      "type": "two-part",
+      "text": "Many supermarkets are selling more and more products that are imported from other countries instead of selling food that is locally sourced.\n\nWhat are the reasons for this?\nIs this a positive or negative development?"
     }
   ]
 }

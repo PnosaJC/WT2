@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "id": "sample-opinion-1",
+      "type": "opinion",
+      "text": "Some people think that governments should make public transport free for everyone who lives in a city.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "sample-opinion-2",
+      "type": "opinion",
+      "text": "Many people believe that schools should teach children how to manage money instead of focusing only on traditional academic subjects.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "sample-discussion-1",
+      "type": "discussion",
+      "text": "Some people believe that working from home benefits both employees and companies, while others think it is better to work in an office.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "sample-discussion-2",
+      "type": "discussion",
+      "text": "Some argue that university education should be free for all students, whereas others believe students should pay for their own studies.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "sample-advantages-disadvantages-1",
+      "type": "advantages-disadvantages",
+      "text": "More and more people are choosing to shop online rather than in physical stores.\n\nDo the advantages of this trend outweigh the disadvantages?"
+    },
+    {
+      "id": "sample-advantages-disadvantages-2",
+      "type": "advantages-disadvantages",
+      "text": "In many countries, young people take a year off between finishing school and starting university.\n\nWhat are the advantages and disadvantages of this?"
+    },
+    {
+      "id": "sample-problem-solution-1",
+      "type": "problem-solution",
+      "text": "Traffic congestion is becoming a serious problem in many cities around the world.\n\nWhat are the causes of this problem, and what measures could be taken to solve it?"
+    },
+    {
+      "id": "sample-problem-solution-2",
+      "type": "problem-solution",
+      "text": "Many young people today spend too much time on social media.\n\nWhat problems does this cause, and what solutions can you suggest?"
+    },
+    {
+      "id": "sample-two-part-1",
+      "type": "two-part",
+      "text": "Nowadays, more and more people choose to live alone.\n\nWhy is this the case? Is this a positive or negative development?"
+    },
+    {
+      "id": "sample-two-part-2",
+      "type": "two-part",
+      "text": "People today read fewer books than they did in the past.\n\nWhy do you think this is happening? Do you think this is a positive or negative development?"
+    }
+  ]
+}

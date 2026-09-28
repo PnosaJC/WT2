@@ -1,0 +1,14 @@
+{
+  "name": "wt2",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Daily IELTS Writing Task 2 practice: 3 questions, 3 introductions, 1 full essay.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "python3 -m http.server 5173 -d dist"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2"
+  }
+}

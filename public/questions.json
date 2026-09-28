@@ -1,54 +1,2389 @@
 {
   "questions": [
     {
-      "id": "sample-opinion-1",
+      "id": "opinion-001",
       "type": "opinion",
-      "text": "Some people think that governments should make public transport free for everyone who lives in a city.\n\nTo what extent do you agree or disagree?"
+      "text": "Some believe that tackling environmental issues should be managed by a global organization instead of being handled individually by national governments.\n\nDo you agree or disagree with this belief?"
     },
     {
-      "id": "sample-opinion-2",
+      "id": "opinion-002",
       "type": "opinion",
-      "text": "Many people believe that schools should teach children how to manage money instead of focusing only on traditional academic subjects.\n\nTo what extent do you agree or disagree?"
+      "text": "Some people say that more money should be invested in science than in other subjects.\n\nDo you agree or disagree?"
     },
     {
-      "id": "sample-discussion-1",
+      "id": "opinion-003",
+      "type": "opinion",
+      "text": "The best way to teach children to cooperate is through team sports at school.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-004",
+      "type": "opinion",
+      "text": "It is a natural process that animal species such as dinosaurs become extinct. There is no reason for people to prevent this from happening.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-005",
+      "type": "opinion",
+      "text": "Some people today argue that media has become increasingly nostalgic and unoriginal.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-006",
+      "type": "opinion",
+      "text": "In many countries, coffee chains are expanding rapidly, which some claim threatens the survival of small local cafés.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-007",
+      "type": "opinion",
+      "text": "Remote work has become increasingly common in recent years. Some argue this impairs work habits generally.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-008",
+      "type": "opinion",
+      "text": "Most of the urgent problems can only be solved with international cooperation.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-009",
+      "type": "opinion",
+      "text": "Many people consider shopping malls as great places to spend their leisure time and meet others. People in the past, however, visited shopping malls only when necessary.\n\nTo what extent do you think this is a negative trend?"
+    },
+    {
+      "id": "opinion-010",
+      "type": "opinion",
+      "text": "Intelligence is the most important quality for a leader.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-011",
+      "type": "opinion",
+      "text": "Access to clean water is a basic human right. Therefore every home should have a water supply that is provided free of charge.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-012",
+      "type": "opinion",
+      "text": "Some people think that shops should not be allowed to sell food or drinks that are scientifically proven to be bad for people's health.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-013",
+      "type": "opinion",
+      "text": "Interviews form the basic selecting criteria for most large companies. However, some people think that the interview is not a reliable method of choosing whom to employ.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-014",
+      "type": "opinion",
+      "text": "Countries should try to produce all the food for the population and import as little food as possible.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-015",
+      "type": "opinion",
+      "text": "Developing countries should be encouraged to implement high tariffs to grow their local industries.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-016",
+      "type": "opinion",
+      "text": "Media coverage of violent crime frightens people and encourages criminals. Some people say it should be banned from newspapers and TV programmes.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-017",
+      "type": "opinion",
+      "text": "Some argue that teachers should focus on academics more than motivating students.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-018",
+      "type": "opinion",
+      "text": "Long distance flight consumes the amount of fuel that a car uses for many years and pollutes the air. Some people think that we should discourage non-essential flights, such as tourists travel, rather than limit the use of cars.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-019",
+      "type": "opinion",
+      "text": "Some argue that schools should prioritize life skills such as working in teams and solving problems instead of traditional academics.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-020",
+      "type": "opinion",
+      "text": "Caring for children is probably the most important job in any society. Because of this, all mothers and fathers should be required to take a course that prepares them to be good parents.\n\nTo what extent do you agree or disagree with this view?"
+    },
+    {
+      "id": "opinion-021",
+      "type": "opinion",
+      "text": "Some people believe that housing is a basic human right for all individuals.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-022",
+      "type": "opinion",
+      "text": "Too much emphasis is given for the education of students. More government money should be spent on free time activities for young people.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-023",
+      "type": "opinion",
+      "text": "More and more people are becoming seriously overweight. Some people think a solution can be to increase the price of fattening foods.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-024",
+      "type": "opinion",
+      "text": "It is important for everyone, including young people, to save money for their future.\n\nTo what extent do you agree or disagree with this statement?"
+    },
+    {
+      "id": "opinion-025",
+      "type": "opinion",
+      "text": "The working week should be shorter and workers should have a longer weekend.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-026",
+      "type": "opinion",
+      "text": "Sports play a significant role in promoting physical and mental well-being.\n\nTo what extent do you agree or disagree with this statement?"
+    },
+    {
+      "id": "opinion-027",
+      "type": "opinion",
+      "text": "Some people feel that the private lives of celebrities should not be openly shared by the media.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-028",
+      "type": "opinion",
+      "text": "Individual greed and selfishness have been the basis of modern society. Some people think that we must return to older more traditional values such as respect for the family and the local community in order to create a better world to live in.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-029",
+      "type": "opinion",
+      "text": "Everybody should donate a fixed amount of their income to support charity.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-030",
+      "type": "opinion",
+      "text": "In today's digital age, anyone with a smartphone can capture and share photographs. This accessibility to photography diminishes the value of professional photographers.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-031",
+      "type": "opinion",
+      "text": "The demand for coaching services has grown significantly in the digital age, with online coaching platforms becoming prevalent. Some now feel online coaching is a superior option to in-person coaching.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-032",
+      "type": "opinion",
+      "text": "Financial education should be included as a mandatory subject in schools to prepare students for managing money effectively.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-033",
+      "type": "opinion",
+      "text": "Some people think that certain old buildings are more worth preserving than other ones.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-034",
+      "type": "opinion",
+      "text": "Some argue that music mainly serves as a way for individuals to reduce their stress and anxiety.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-035",
+      "type": "opinion",
+      "text": "Schools should focus on academic success and passing examinations. Skills such as cookery, dressmaking and woodworking should not be taught at school as it is better to learn these from family.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-036",
+      "type": "opinion",
+      "text": "Virtual reality should be used as a tool for therapeutic interventions and mental health treatments.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-037",
+      "type": "opinion",
+      "text": "Schools should use films, computers and games instead of books.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-038",
+      "type": "opinion",
+      "text": "Some people think eating meat is bad for health.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-039",
+      "type": "opinion",
+      "text": "Friendships that take place online are not as meaningful as those where people meet each other face to face.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-040",
+      "type": "opinion",
+      "text": "The best way to reduce poverty in developing countries is by giving up to six years of free education, so that they can at least read, write and use numbers.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-041",
+      "type": "opinion",
+      "text": "Some feel that governments should prioritize healthcare instead of other important areas.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-042",
+      "type": "opinion",
+      "text": "The most important aim of science ought to be to improve people's lives.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-043",
+      "type": "opinion",
+      "text": "Always telling the truth is the most important consideration in any relationship between people.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-044",
+      "type": "opinion",
+      "text": "Many today feel that attention spans are becoming shorter due to the prevalence of social media.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-045",
+      "type": "opinion",
+      "text": "Some feel that students should not have to take standardized tests in school.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-046",
+      "type": "opinion",
+      "text": "Some feel that movies and TV shows are a good way to study history despite their lack of historical accuracy at times.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-047",
+      "type": "opinion",
+      "text": "Some believe that new science related to criminal forensics should be used to look at old cases.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-048",
+      "type": "opinion",
+      "text": "Some people think that social networking sites have a huge negative impact on both individuals and society.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-049",
+      "type": "opinion",
+      "text": "Some people say that to prevent illness and disease, governments should focus more on reducing environmental pollution and housing problems.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-050",
+      "type": "opinion",
+      "text": "Doing an enjoyable activity with a child is better for their overall skills development and creativity than reading.\n\nTo what extent do you agree?"
+    },
+    {
+      "id": "opinion-051",
+      "type": "opinion",
+      "text": "Learning at university would be more effective if men and women were educated separately.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-052",
+      "type": "opinion",
+      "text": "Some people today have argued that countries should interfere less in the affairs of other nations.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-053",
+      "type": "opinion",
+      "text": "Nowadays, distance-learning programs have gained in popularity, but some people argue that online courses can never be taken as good as those taken at a college or university in person.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-054",
+      "type": "opinion",
+      "text": "People living in the 21st century have a better life quality than people who lived in previous times.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-055",
+      "type": "opinion",
+      "text": "Young people committing crimes should be treated the same as adults by the authorities.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-056",
+      "type": "opinion",
+      "text": "Although it is generally illegal, physical punishment continues in many countries. Some argue that parents should have the right to punish their children in this way.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-057",
+      "type": "opinion",
+      "text": "The best way to make the road transport of goods safer is to ask drivers to take a driving test each year.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-058",
+      "type": "opinion",
+      "text": "Prison is the common way most countries try to solve the problem of crime. However, a more effective solution is to provide the public a better education.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-059",
+      "type": "opinion",
+      "text": "Some people claim that not enough waste from homes is recycled and that the only way to increase recycling is for governments to make it a legal requirement.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-060",
+      "type": "opinion",
+      "text": "In marriages today, some argue that it is the responsibility of both spouses to earn a living for the family.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-061",
+      "type": "opinion",
+      "text": "Companies should provide sports facilities for local communities.\n\nTo what extent do you agree?"
+    },
+    {
+      "id": "opinion-062",
+      "type": "opinion",
+      "text": "The best curriculum is not one based on a static body of knowledge but one which teaches students to cope with change.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-063",
+      "type": "opinion",
+      "text": "Some people claim that too much focus and resources have been spent to protect wild animals and birds.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-064",
+      "type": "opinion",
+      "text": "Educating young people is naturally important. However, some think governments ought to invest more in education for adults in need.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-065",
+      "type": "opinion",
+      "text": "Some experts say for road safety cyclists should pass a test before being allowed on public roads.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-066",
+      "type": "opinion",
+      "text": "Some people believe that violent media directly results in violent behavior.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-067",
+      "type": "opinion",
+      "text": "Today, many young people spend too much of their free time at shopping malls. This can be considered negative for young people and society generally.\n\nTo what extent do you agree or disagree with this statement?"
+    },
+    {
+      "id": "opinion-068",
+      "type": "opinion",
+      "text": "Some people think the main purpose of school is to turn children into good citizens and workers, rather than to benefit them as individuals.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-069",
+      "type": "opinion",
+      "text": "In many countries, children are becoming overweight and unhealthy. Some people think that the government has the responsibility to solve this problem.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-070",
+      "type": "opinion",
+      "text": "Many young people today spend too much time following the latest fashion trends in areas such as clothing and technology.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-071",
+      "type": "opinion",
+      "text": "Some believe that nuclear weapons benefit the world at large.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-072",
+      "type": "opinion",
+      "text": "Some people believe that students should acquire working experience during their gap year instead of traveling.\n\nDo you agree or disagree with this statement?"
+    },
+    {
+      "id": "opinion-073",
+      "type": "opinion",
+      "text": "The governments should give each citizen a basic income so that they have enough money to live on, even if they are unemployed.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-074",
+      "type": "opinion",
+      "text": "Some people think that enjoying the present is more important than planning for the future for both countries and individuals.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-075",
+      "type": "opinion",
+      "text": "Scientific research should be carried out and controlled by the governments rather than private companies.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-076",
+      "type": "opinion",
+      "text": "The best way to solve the world's environmental problems is to increase the cost of fuel for cars and other private vehicles.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-077",
+      "type": "opinion",
+      "text": "The tendency of human beings to copy one another is shown in the popularity of areas such as fashion and consumer goods.\n\nTo what extent do you agree?"
+    },
+    {
+      "id": "opinion-078",
+      "type": "opinion",
+      "text": "Some people believe that it is a good idea that older people continue to work if it is possible for them to do.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-079",
+      "type": "opinion",
+      "text": "Many claim that the fast food industry has a negative effect on the environment, eating habits, and families.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-080",
+      "type": "opinion",
+      "text": "Some people say that it is possible to tell a lot about a person's culture and character from their choice of clothes.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-081",
+      "type": "opinion",
+      "text": "There are different customs in different countries related to how people eat, dress, and so on. Some think that people visiting a country should behave according to customs of the country they visit.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-082",
+      "type": "opinion",
+      "text": "Because many children are not able to learn foreign languages, schools should not force them to learn foreign languages.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-083",
+      "type": "opinion",
+      "text": "Governments should make people responsible for looking after their own local environment.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-084",
+      "type": "opinion",
+      "text": "Some people say that at all levels of education, from primary school to university, too much time is spent on learning facts and not enough on learning practical skills.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-085",
+      "type": "opinion",
+      "text": "Some claim that men are naturally more competitive than women.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-086",
+      "type": "opinion",
+      "text": "Shopping habits depend more on your age group than anything else.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-087",
+      "type": "opinion",
+      "text": "Smoking is a major cause of serious illness and death throughout the world today. In the interest of the public health, governments should ban cigarettes and other tobacco products.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-088",
+      "type": "opinion",
+      "text": "Everyone should become vegetarian because they do not need to eat meat to have a healthy diet.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-089",
+      "type": "opinion",
+      "text": "Some people think employers should not care about the way their employees dress, but the quality at work.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-090",
+      "type": "opinion",
+      "text": "In many situations, people who break the law should be warned instead of punished.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-091",
+      "type": "opinion",
+      "text": "Crime rates will fall as advances in technology make it easier to detect and prevent crimes.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-092",
+      "type": "opinion",
+      "text": "Some countries are considering imposing curfews in which teenagers will not be allowed outdoors at night unless they are accompanied by an adult.\n\nTo what extent do you agree or disagree with this policy?"
+    },
+    {
+      "id": "opinion-093",
+      "type": "opinion",
+      "text": "Some think that fathers should have time off from work after the birth of a child.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-094",
+      "type": "opinion",
+      "text": "Some people think that because children find subjects such as mathematics and philosophy difficult, they ought to be optional instead of compulsory.\n\nTo what extent do you agree?"
+    },
+    {
+      "id": "opinion-095",
+      "type": "opinion",
+      "text": "Globalization is positive for economies but its negative sides should not be ignored.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-096",
+      "type": "opinion",
+      "text": "Although more and more people read news on the Internet, newspapers will remain the most important source of news for the majority of people.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-097",
+      "type": "opinion",
+      "text": "Fast food has become more common in recent years. Some people think that it has a negative effect on lifestyles and diets.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-098",
+      "type": "opinion",
+      "text": "Some people think that there should be a complete ban on all forms of advertising.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-099",
+      "type": "opinion",
+      "text": "Some feel governments, rather than private companies, should be in charge of medical services.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-100",
+      "type": "opinion",
+      "text": "Large companies use sports events to promote their products. Some people think this has a negative impact on sports.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-101",
+      "type": "opinion",
+      "text": "Some feel that good entertainers are as important to society as scientists.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-102",
+      "type": "opinion",
+      "text": "People are annoyed or entertained by advertising but they are not affected by advertisements when making shopping decisions.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-103",
+      "type": "opinion",
+      "text": "Convenience foods will become increasingly prevalent and eventually replace traditional foods and methods of preparation.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-104",
+      "type": "opinion",
+      "text": "Some people believe that wild animals should not be kept in zoos or other man-made environments as there is no longer a need for them in the 21st century.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-105",
+      "type": "opinion",
+      "text": "Many manufactured food and drink products contain high levels of sugar, which causes many health problems. Sugary products should be made more expensive to encourage people to consume less sugar.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-106",
+      "type": "opinion",
+      "text": "Some people think that children under 18 years old should receive full-time education.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-107",
+      "type": "opinion",
+      "text": "Many believe that reading books is a waste of time and children would be better served doing something more useful.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-108",
+      "type": "opinion",
+      "text": "Traditional ideas from older people about the way to live and behave are not helpful to young people and their futures.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-109",
+      "type": "opinion",
+      "text": "Large companies should pay higher salaries to CEOs and executives compared to other workers.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-110",
+      "type": "opinion",
+      "text": "Many believe that living in a city offers greater benefits compared to life in the countryside.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-111",
+      "type": "opinion",
+      "text": "Some claim that studying abroad has great benefits for a student's home country.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-112",
+      "type": "opinion",
+      "text": "If a product is good and meets customer needs, then people will buy it and advertising is unnecessary.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-113",
+      "type": "opinion",
+      "text": "It is impossible to help all people around the world in need so governments should focus on people from their own country.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-114",
+      "type": "opinion",
+      "text": "Some people think that the best way to increase road safety is to increase the minimum legal age for driving cars and riding motorbikes.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-115",
+      "type": "opinion",
+      "text": "Instead of requiring primary school students to do experiments themselves, schools should only allow them to watch experiments demonstrated by teachers.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-116",
+      "type": "opinion",
+      "text": "The growth of multinational companies and the resulting rise of globalization creates positive effects for all.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-117",
+      "type": "opinion",
+      "text": "Some people say it is more important to plant trees in the open spaces in towns and cities than to build more housing.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-118",
+      "type": "opinion",
+      "text": "Some believe it is important for cities and towns to invest heavily in building large outdoor public spaces.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-119",
+      "type": "opinion",
+      "text": "Nowadays many people travel to foreign countries for pleasure. Some believe this travel has a negative impact on the countries travelled to.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-120",
+      "type": "opinion",
+      "text": "Some people say that all popular TV entertainment programmes should aim to educate viewers about important social issues.\n\nTo what extent do you agree or disagree with this statement?"
+    },
+    {
+      "id": "opinion-121",
+      "type": "opinion",
+      "text": "To succeed in a business, one needs to know maths.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-122",
+      "type": "opinion",
+      "text": "Computer games are very popular for all ages and nationalities. Parents think this has little educational value and it will be harmful for children.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-123",
+      "type": "opinion",
+      "text": "The first man to walk on the moon claimed it was a step forward for mankind. However, it has made little difference in most people's lives.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-124",
+      "type": "opinion",
+      "text": "One of the most important issues facing the world today is a shortage of food and some think genetically modified foods are a possible solution.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-125",
+      "type": "opinion",
+      "text": "Society is based on rules and laws. It could not function if individuals were free to do whatever they wanted to do.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-126",
+      "type": "opinion",
+      "text": "Computers today can quickly and accurately translate languages, therefore, it is a waste of time to learn a foreign language.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-127",
+      "type": "opinion",
+      "text": "Some think that it is more important for children to engage in outdoor activities instead of playing videogames.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-128",
+      "type": "opinion",
+      "text": "Whether or not a person achieves their aims in life is mostly related to luck.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-129",
+      "type": "opinion",
+      "text": "Some people believe that family is more important than friends.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-130",
+      "type": "opinion",
+      "text": "Some people think that it is a waste of time for high school students to study literature, such as novels and poems.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-131",
+      "type": "opinion",
+      "text": "Nowadays nurses should not just be required to do basic training but they must have other qualities as well to do their jobs well.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-132",
+      "type": "opinion",
+      "text": "Studies show that crime rates are lower among those with educational degrees. Therefore, the best way to reduce the crime rate is to educate criminals while they are still in prison.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-133",
+      "type": "opinion",
+      "text": "The internet means people do not need to travel to foreign countries to understand how others live.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-134",
+      "type": "opinion",
+      "text": "Cooking at home is a waste of time because there are so many convenient fast food options that make life less stressful.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-135",
+      "type": "opinion",
+      "text": "Some think the current generation should take steps to protect the environment for the next generation.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-136",
+      "type": "opinion",
+      "text": "In many countries, traditional foods are being replaced by fast food. This has a negative impact on families, individuals and society.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-137",
+      "type": "opinion",
+      "text": "Some educators believe that every child should be taught how to play a musical instrument.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-138",
+      "type": "opinion",
+      "text": "Some people believe that the government should spend more money putting in more works of art like paintings and statues in cities to make them better places to live in.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-139",
+      "type": "opinion",
+      "text": "When a person spends most of his or her time working a job with little job satisfaction, their life loses meaning.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-140",
+      "type": "opinion",
+      "text": "Historical objects should be brought back to their country of origin.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-141",
+      "type": "opinion",
+      "text": "Many people think technological devices such as smart phones, tablets and mobile phones bring more disadvantages than advantages.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-142",
+      "type": "opinion",
+      "text": "It is better for children if the whole family including aunts, uncles and so on are involved in a child's upbringing, rather than just their parents.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-143",
+      "type": "opinion",
+      "text": "The government should lower the budget on the arts in order to allocate more money to education.\n\nTo what extent do you agree?"
+    },
+    {
+      "id": "opinion-144",
+      "type": "opinion",
+      "text": "Although families have influence on a child's development, factors outside the home play a bigger part in their lives nowadays.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-145",
+      "type": "opinion",
+      "text": "It is better to learn the way people lived in the past through films and video records than written documents.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-146",
+      "type": "opinion",
+      "text": "Many people think that mobile phones should be banned in public places such as libraries, shops and public transport.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-147",
+      "type": "opinion",
+      "text": "Some think that students must travel to another country in order to learn its language and customs.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-148",
+      "type": "opinion",
+      "text": "Full-time university students spend a lot of time studying. Some say they should do other activities too.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-149",
+      "type": "opinion",
+      "text": "In the future, nobody will buy printed newspapers or books because they will be able to read everything they want online without paying.\n\nTo what extent do you agree or disagree with this statement?"
+    },
+    {
+      "id": "opinion-150",
+      "type": "opinion",
+      "text": "In the future, people may have to live on other planets. Some think that it is therefore important to spend money researching other planets such as Mars.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-151",
+      "type": "opinion",
+      "text": "Governments should spend more money on medical research and less on researching the environment.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-152",
+      "type": "opinion",
+      "text": "Some today argue that schools are no longer necessary because children can learn so much from the internet and be educated at home.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-153",
+      "type": "opinion",
+      "text": "In many schools and universities today, women have a tendency to study the humanities (such as the arts and languages) while men more often major in science related subjects. Some believe this tendency should be changed.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-154",
+      "type": "opinion",
+      "text": "Many people believe that film is a less important art than other forms such as literature and painting.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-155",
+      "type": "opinion",
+      "text": "There are severe social consequences to housing shortages in cities and only the government can solve these problems.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-156",
+      "type": "opinion",
+      "text": "Watching a live performance such as a play, concert, or sporting event is more enjoyable than watching the same event on television.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-157",
+      "type": "opinion",
+      "text": "Some people believe that smartphones are destroying social interaction today.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-158",
+      "type": "opinion",
+      "text": "Throughout history, male leaders have led us into violence and conflict. If a society is governed by female leaders it will be more peaceful.\n\nTo what extent do you agree or disagree with this opinion?"
+    },
+    {
+      "id": "opinion-159",
+      "type": "opinion",
+      "text": "Many feel that students today should learn practical skills at school such as car maintenance and managing a bank account.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-160",
+      "type": "opinion",
+      "text": "Many people think that it is better to get advice from old rather than young people.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-161",
+      "type": "opinion",
+      "text": "Some believe technology has made our lives too complex and the solution is to lead a simpler life without technology.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-162",
+      "type": "opinion",
+      "text": "One good way to promote world peace is through international sporting events.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-163",
+      "type": "opinion",
+      "text": "As well as making money, businesses also have a responsibility towards society.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-164",
+      "type": "opinion",
+      "text": "Developing the economy will always damage the environment.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-165",
+      "type": "opinion",
+      "text": "Too much money is wasted on repairing old buildings when it should be used to knock them down and build new ones.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-166",
+      "type": "opinion",
+      "text": "Many believe that the best way to ensure a happier society is to reduce the difference in income earnings between the rich and poor.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-167",
+      "type": "opinion",
+      "text": "Extreme sports such as sky diving and skiing are very dangerous and should be banned.\n\nTo what extent do you agree or disagree with this view?"
+    },
+    {
+      "id": "opinion-168",
+      "type": "opinion",
+      "text": "Many believe that individuals can do little to improve the environment. Only governments and large companies can make a real difference.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-169",
+      "type": "opinion",
+      "text": "Some people think that it is better to build more public parks and sports facilities in new towns rather than shopping malls.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-170",
+      "type": "opinion",
+      "text": "Some people think that the news media has become much more influential in people's lives today and it is a negative development.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-171",
+      "type": "opinion",
+      "text": "Many psychologists recommend that the best way to relieve stress is to do nothing at all for a period of time during the day.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-172",
+      "type": "opinion",
+      "text": "The job market today is very competitive and it is best to choose a career or field of study early in order to get a good job later in life.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-173",
+      "type": "opinion",
+      "text": "Some believe that because everyone needs a place to live, governments should provide houses for those who are too poor to afford their own.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-174",
+      "type": "opinion",
+      "text": "Some countries are struggling with increases in crime rates. Some believe that having more police on the streets is the best way to reduce and combat crime.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-175",
+      "type": "opinion",
+      "text": "Some people say that music is a good way of bringing people of different cultures and ages together.\n\nTo what extent do you agree or disagree with this opinion?"
+    },
+    {
+      "id": "opinion-176",
+      "type": "opinion",
+      "text": "Some people believe that nowadays we have too many choices.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-177",
+      "type": "opinion",
+      "text": "Living in a country where you have to speak a foreign language can cause serious social problems, as well as practical problems.\n\nTo what extent do you agree or disagree with this statement?"
+    },
+    {
+      "id": "opinion-178",
+      "type": "opinion",
+      "text": "Traffic and housing problems in major cities could be solved by moving companies, factories and their employees to the countryside.\n\nDo you agree or disagree?"
+    },
+    {
+      "id": "opinion-179",
+      "type": "opinion",
+      "text": "Museums and art galleries should focus on works that show the history and culture of their own country rather than works of other parts of the world.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-180",
+      "type": "opinion",
+      "text": "Some people say that school children should be mainly taught about the literature (e.g. fiction and poetry) of their own country because it is more important than that of other countries.\n\nTo what extent do you agree?"
+    },
+    {
+      "id": "opinion-181",
+      "type": "opinion",
+      "text": "When designing a building, the most important factor is the intended use of the building rather than its outward appearance.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-182",
+      "type": "opinion",
+      "text": "Plastic shopping bags are used widely and cause many environmental problems. Some people say they should be banned.\n\nTo what extent do you agree or disagree?"
+    },
+    {
+      "id": "opinion-183",
+      "type": "opinion",
+      "text": "These days, if people have health problems, many do not visit doctors. They try to get better at home by themselves.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-184",
+      "type": "opinion",
+      "text": "In many countries, large infrastructure projects are increasingly funded and managed by private companies rather than governments.\n\nTo what extent do you think this is a positive or negative development?"
+    },
+    {
+      "id": "opinion-185",
+      "type": "opinion",
+      "text": "Nowadays, more people travel abroad for tourism than ever before.\n\nDo you think this is a positive or negative development?"
+    },
+    {
+      "id": "opinion-186",
+      "type": "opinion",
+      "text": "Today many teenagers rely greatly on technology when learning.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-187",
+      "type": "opinion",
+      "text": "In many countries nowadays, consumers can go to a supermarket and buy food produced all over the world.\n\nDo you think this is a positive or negative development?"
+    },
+    {
+      "id": "opinion-188",
+      "type": "opinion",
+      "text": "Nowadays, there is more and more competition for getting into university.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-189",
+      "type": "opinion",
+      "text": "In many societies, there is a growing emphasis on individualism, with people prioritizing their personal goals and desires over collective interests.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-190",
+      "type": "opinion",
+      "text": "Around the world, rural people are moving to cities and urban areas, so populations in the countryside are decreasing.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-191",
+      "type": "opinion",
+      "text": "Fossil fuels are the main source of energy around the world today. In some countries, the use of alternative sources of energy is replacing fossil fuels.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-192",
+      "type": "opinion",
+      "text": "Today, many people use the internet and smartphones to transfer money to friends, family, and businesses.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-193",
+      "type": "opinion",
+      "text": "Nowadays, an increasing number of people with health problems are using alternative medicines and treatments instead of visiting their normal doctor.\n\nDo you think this is a positive or negative development?"
+    },
+    {
+      "id": "opinion-194",
+      "type": "opinion",
+      "text": "Many cities are now turning parks and farmland into new housing developments.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-195",
+      "type": "opinion",
+      "text": "Many people put their personal information online (address, telephone number, and so on) for purposes such as signing up for social networks or online banking.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-196",
+      "type": "opinion",
+      "text": "Nowadays some older people choose to live in retirement communities and centers with other people, rather than living with their adult children.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-197",
+      "type": "opinion",
+      "text": "Film stars and celebrities often share their views on public matters that have little to do with their profession.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-198",
+      "type": "opinion",
+      "text": "Some countries import a large amount of food from other parts of the world.\n\nTo what extent is this a positive or negative trend?"
+    },
+    {
+      "id": "opinion-199",
+      "type": "opinion",
+      "text": "Many people nowadays tend to marry and have children in their thirties rather than at a younger age.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-200",
+      "type": "opinion",
+      "text": "Some countries invest in specialized sports facilities for top athletes but not for the average people.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-201",
+      "type": "opinion",
+      "text": "The number of people who are interested in and wearing fashionable clothes is increasing.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-202",
+      "type": "opinion",
+      "text": "Many local languages today are dying out due to the rise of languages like English.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-203",
+      "type": "opinion",
+      "text": "Due to television and the internet it is easier today for a large number of people to become famous.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-204",
+      "type": "opinion",
+      "text": "More and more people today are becoming overly dependent on the internet and phones.\n\nIs this a positive or negative development?"
+    },
+    {
+      "id": "opinion-205",
+      "type": "opinion",
+      "text": "Nowadays more tasks at home and work are being performed by robots.\n\nIs this a negative or positive development?"
+    },
+    {
+      "id": "opinion-206",
+      "type": "opinion",
+      "text": "Nowadays because of digital technology it is possible for not only studios but also individuals to produce their own films.\n\nDo you think this is a positive or negative development?"
+    },
+    {
+      "id": "discussion-001",
       "type": "discussion",
-      "text": "Some people believe that working from home benefits both employees and companies, while others think it is better to work in an office.\n\nDiscuss both views and give your own opinion."
+      "text": "Some believe that pets should stay at home at all times, while others feel they should be allowed outside the home.\n\nDiscuss both views and give your own opinion."
     },
     {
-      "id": "sample-discussion-2",
+      "id": "discussion-002",
       "type": "discussion",
-      "text": "Some argue that university education should be free for all students, whereas others believe students should pay for their own studies.\n\nDiscuss both views and give your own opinion."
+      "text": "Some people think that the government should provide free public libraries in every town, while others think that this is a waste of money because people can access information on the internet.\n\nDiscuss both viewpoints and give your own opinion."
     },
     {
-      "id": "sample-advantages-disadvantages-1",
+      "id": "discussion-003",
+      "type": "discussion",
+      "text": "Some people think the government should subsidise fruits and vegetables to make healthy food more affordable. Others argue that the government should tax unhealthy food instead.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-004",
+      "type": "discussion",
+      "text": "Some people believe that in the future, most cities will become unlivable due to pollution and overcrowding. Others think technological innovation will solve these problems.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-005",
+      "type": "discussion",
+      "text": "Some feel that it is important for all adults to engage in the arts in their free time as a hobby. Others disagree.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-006",
+      "type": "discussion",
+      "text": "Many people feel that students should learn from online materials, while others feel that it is better to use printed materials.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-007",
+      "type": "discussion",
+      "text": "Some people think that charity organizations should only offer help to people of their own country. But others believe that these organizations should give aid to people in great need wherever they live.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-008",
+      "type": "discussion",
+      "text": "Some feel that the best way to ensure a happy home life for children is for parents to take a parenting course once a year. Others disagree.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-009",
+      "type": "discussion",
+      "text": "Some believe that research on family history is a useful thing to do, while others disagree.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-010",
+      "type": "discussion",
+      "text": "Some believe secondary students should learn international news as a subject at school, while others think it's a waste of time.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-011",
+      "type": "discussion",
+      "text": "Many people believe that safe investments are better for their long-term future while others feel there is more value in risky investments.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-012",
+      "type": "discussion",
+      "text": "Some people think that when recruiting, companies should aim to take on people who are innovative and able to work independently while others consider they should recruit people who are able to work in a team and follow instructions.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-013",
+      "type": "discussion",
+      "text": "Some believe that the government should support artists like musicians, painters, and poets, while others argue that this is a misuse of funds.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-014",
+      "type": "discussion",
+      "text": "Some people argue that parents should have a strong influence on their children's choice of friends and life partners. Others believe that young people should make these decisions independently.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-015",
+      "type": "discussion",
+      "text": "Some countries have legal ages at which people can drink. Other countries believe not having strict laws is a better policy.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-016",
+      "type": "discussion",
+      "text": "Some feel that tourism endangers culture while others feel it is beneficial.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-017",
+      "type": "discussion",
+      "text": "Some people think that the main benefit of international cooperation is in the protection of the environment, while others believe that businesses mainly benefit.\n\nDiscuss both these views and give your own opinion."
+    },
+    {
+      "id": "discussion-018",
+      "type": "discussion",
+      "text": "Some people believe that young people should choose the jobs that they want, but other people think they should be more realistic and think more about their future.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-019",
+      "type": "discussion",
+      "text": "Some feel that individuals today spend too much time following political news while others feel politics deserves greater attention.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-020",
+      "type": "discussion",
+      "text": "Some people think technology development decreases crime, while others believe it actually encourages crime.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-021",
+      "type": "discussion",
+      "text": "Some people think that competition at work, at school and in daily life is a good thing. Others believe that we should try to cooperate more, rather than competing against each other.\n\nDiscuss both these views and give your own opinion."
+    },
+    {
+      "id": "discussion-022",
+      "type": "discussion",
+      "text": "Innovation is often driven by the pursuit of profit and economic growth. However, some argue that it should prioritize addressing social and environmental issues.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-023",
+      "type": "discussion",
+      "text": "Some people believe that in a city, the best way to travel is by car, while other people argue that bicycles are a better way of travelling in a city.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-024",
+      "type": "discussion",
+      "text": "Some people say that supermarkets and manufacturers have a responsibility to reduce the amount of packaging on products they sell. Others believe that it is the consumer's responsibility to avoid buying products which have a lot of packaging.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-025",
+      "type": "discussion",
+      "text": "Some people believe that professional athletes serve as positive role models for young people, while others argue that their behavior both on and off the field can have a negative influence.\n\nDiscuss both sides and give your opinion."
+    },
+    {
+      "id": "discussion-026",
+      "type": "discussion",
+      "text": "Some people believe that reading is always a good habit. Others feel it depends on which books a person is reading.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-027",
+      "type": "discussion",
+      "text": "The increasing availability of low-cost airlines now lets people travel around the world. Some feel this is a positive development while others think it is negative overall.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-028",
+      "type": "discussion",
+      "text": "In some countries, companies allow people to work from home. In others, people are still expected to work in an office.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-029",
+      "type": "discussion",
+      "text": "In recent years, there has been a significant increase in the number of oil drilling operations in remote locations around the world. This has brought economic benefits to some countries, though it has also raised concerns about the environmental impact of these operations.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-030",
+      "type": "discussion",
+      "text": "Many university students want to learn about different subjects in addition to their main subjects. Others feel it is more important to give all their time and attention to studying for their qualification.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-031",
+      "type": "discussion",
+      "text": "Many think that religion should be taught in schools while others think it should be avoided.\n\nDiscuss both sides and give your opinion."
+    },
+    {
+      "id": "discussion-032",
+      "type": "discussion",
+      "text": "Some believe that students should begin learning a language very early in school while others think these subjects should be taught later.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-033",
+      "type": "discussion",
+      "text": "Some feel that individuals should have the right to strike in all jobs while others feel there are exceptions.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-034",
+      "type": "discussion",
+      "text": "Some people prefer to spend their lives doing the same things and avoiding change. Others, however, think that change is always a good thing.\n\nDiscuss both these views and give your own opinion."
+    },
+    {
+      "id": "discussion-035",
+      "type": "discussion",
+      "text": "Many believe that the goal of one's career should be to pursue a passion while others feel it is merely a way to earn a livelihood.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-036",
+      "type": "discussion",
+      "text": "Some people feel that cities should allow for spaces for graffiti while others feel it should be banned.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-037",
+      "type": "discussion",
+      "text": "Some think newspapers are the best method for reading the news while others think other media is better.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-038",
+      "type": "discussion",
+      "text": "As the number of cars increases, more money has to be spent on road systems. Some people think the government should pay for this. Others, however, think that drivers should cover the costs.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-039",
+      "type": "discussion",
+      "text": "Some people believe that children of all ages should have extra responsibilities (for example, helping at home or at work). Others believe that, outside of school, children should be free to enjoy their lives.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-040",
+      "type": "discussion",
+      "text": "Some people believe more actions can be taken to prevent crime, while others think that little can be done.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-041",
+      "type": "discussion",
+      "text": "Some argue that patriotism is the primary cause of wars globally. Others feel that it serves to prevent less ethical politicians from running a country and starting wars.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-042",
+      "type": "discussion",
+      "text": "Some feel that punishment should focus more on rehabilitation instead of long prison terms. Others feel prison terms are important for social stability.\n\nDiscuss both sides and give your opinion."
+    },
+    {
+      "id": "discussion-043",
+      "type": "discussion",
+      "text": "Some feel that individuals should try to assimilate completely to the country where they live while others feel it is more important to preserve their native culture.\n\nDiscuss both sides and give your opinion."
+    },
+    {
+      "id": "discussion-044",
+      "type": "discussion",
+      "text": "Some believe that traffic problems in cities can best be resolved by investing in urban infrastructure while others feel there are superior solutions.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-045",
+      "type": "discussion",
+      "text": "Some people believe that car-free days are effective ways to reduce air pollution. However, others argue that there are other ways that are more effective.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-046",
+      "type": "discussion",
+      "text": "Many governments think that economic progress is their most important goal. Some people, however, think that other types of progress are equally important for a country.\n\nDiscuss both these views and give your own opinion."
+    },
+    {
+      "id": "discussion-047",
+      "type": "discussion",
+      "text": "Some people believe that increasing tax on various industries will reduce pollution whereas others believe that there are better alternative ways.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-048",
+      "type": "discussion",
+      "text": "Some believe that money for education should mainly be spent on better computers while others believe it would be better spent on teachers.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-049",
+      "type": "discussion",
+      "text": "In an era of globalization, some people think that studying abroad is the best way to attain a well-paid job while others believe other options are better.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-050",
+      "type": "discussion",
+      "text": "Some people believe that professionals, such as doctors and engineers, should be required to work in the country where they did their training. Others believe they should be free to work in another country if they wish.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-051",
+      "type": "discussion",
+      "text": "Some people feel that equality between the genders has already been achieved while others feel there is considerable progress to be made.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-052",
+      "type": "discussion",
+      "text": "Some people believe that the experiences children have before they go to school will have the greatest effect on their future life. Others argue that experiences gained when they are teenagers have a bigger influence.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-053",
+      "type": "discussion",
+      "text": "Some feel that cities should be designed to be beautiful while others feel their functionality is more important.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-054",
+      "type": "discussion",
+      "text": "In some places, old age is valued, while in other cultures youth is considered more important.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-055",
+      "type": "discussion",
+      "text": "Some people think that the government should strictly control the supply of fresh water, as it is a limited resource, while others think it should not be regulated.\n\nDiscuss both sides and give your opinion."
+    },
+    {
+      "id": "discussion-056",
+      "type": "discussion",
+      "text": "Some people think it is better to have many short holidays during the year. Others believe it would be beneficial to have fewer, longer vacations.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-057",
+      "type": "discussion",
+      "text": "In some countries, there has been an increase in the number of advertisements which try to persuade children to buy snacks, toys, and other goods. Parents often claim that these ads are unfair.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-058",
+      "type": "discussion",
+      "text": "Some people say that individuals should change jobs during their working life often while others believe that doing the same job has advantages to individuals, companies, and society.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-059",
+      "type": "discussion",
+      "text": "Some think that politicians should always be honest while others feel that there are times when they must lie.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-060",
+      "type": "discussion",
+      "text": "Many people argue that in order to improve educational quality, high school students should be encouraged to question and offer criticisms on their teachers. Others think this will lead to a loss of respect and discipline in the classroom.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-061",
+      "type": "discussion",
+      "text": "Computers are becoming increasingly pervasive in modern life. Some view this as a positive while others feel it is negative overall.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-062",
+      "type": "discussion",
+      "text": "Some people think that children should begin their formal education at a very early age. Others think they should begin after 7 years of age.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-063",
+      "type": "discussion",
+      "text": "Some people are happy to stay in the same area for their whole life, while others prefer living in many different places.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-064",
+      "type": "discussion",
+      "text": "Many believe that it is important to protect all wild animals, while others think that it is important to protect some, not all of them.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-065",
+      "type": "discussion",
+      "text": "Some people think that schools should not test and grade students. Others think that grades are important.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-066",
+      "type": "discussion",
+      "text": "There is little difference in the shops now operating in various nations. Some people think this is a positive development, while others believe it is negative.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-067",
+      "type": "discussion",
+      "text": "Some people focus on news in their own country, while others think it is more important to be aware of international news.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-068",
+      "type": "discussion",
+      "text": "Most agree that we should be training children to recycle waste to preserve the Earth's natural resources. However, some believe that it is parents who should teach their children to recycle waste while others feel schools are more responsible.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-069",
+      "type": "discussion",
+      "text": "Some people say that individuals who make a lot of money are the most successful. Others think that those who contribute to society like scientists and teachers are more successful.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-070",
+      "type": "discussion",
+      "text": "Employers sometimes ask people applying for jobs for personal information, such as their hobbies and interests, and whether they are married or single. Some people say that this information may be relevant and useful. Others disagree.\n\nDiscuss both these views and give your own opinion."
+    },
+    {
+      "id": "discussion-071",
+      "type": "discussion",
+      "text": "Movies and computer games containing violence are popular. Some people say they have a negative effect on society and should be censored. Others say they are just harmless relaxation.\n\nDiscuss both these views and give your own opinion."
+    },
+    {
+      "id": "discussion-072",
+      "type": "discussion",
+      "text": "Some people think personal happiness is directly related to economic success, while others believe this depends on other factors.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-073",
+      "type": "discussion",
+      "text": "Many people believe that it is easier to have a healthy lifestyle in the countryside. Others believe that there are health benefits to living in cities.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-074",
+      "type": "discussion",
+      "text": "Some people think that students in high or secondary school can choose courses freely, others think that courses such as mathematics must be compulsory.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-075",
+      "type": "discussion",
+      "text": "Some people think children should have the freedom to make mistakes, while other people believe that adults should prevent children from making mistakes.\n\nDiscuss both sides and give your opinion."
+    },
+    {
+      "id": "discussion-076",
+      "type": "discussion",
+      "text": "Some people believe that children should do sports so that they will grow up as healthy adults, but others feel sports are just about enjoying yourself.\n\nDiscuss both these views and give your own opinion."
+    },
+    {
+      "id": "discussion-077",
+      "type": "discussion",
+      "text": "Some people think that individuals today are more dependent on each other. Others believe people have become more independent.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-078",
+      "type": "discussion",
+      "text": "Some people think that children can learn about history by visiting museums, while others feel that there are better ways to learn about history.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-079",
+      "type": "discussion",
+      "text": "Some feel that schools should be mixed with both girls and boys attending while others feel the genders ought to be separated.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-080",
+      "type": "discussion",
+      "text": "Some believe that people should make efforts to fight climate change while others think it is better to learn to live with it.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-081",
+      "type": "discussion",
+      "text": "Some people think that sports play an important role in society. Others think they are nothing more than a leisure activity.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-082",
+      "type": "discussion",
+      "text": "Some people think the newly built houses should be the same as the old housing styles in local areas. Others argue that local authorities should allow people to build houses in their own style.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-083",
+      "type": "discussion",
+      "text": "Some feel governments should invest in preserving minority languages, while others feel this is not a good use of resources.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-084",
+      "type": "discussion",
+      "text": "Some people think young people should follow the traditions of their society. Others think that they should be free to behave as individuals.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-085",
+      "type": "discussion",
+      "text": "Some people think that famous people can help international aid organizations to draw attention to important problems. Others believe that the celebrities can make the problems seem less important.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-086",
+      "type": "discussion",
+      "text": "Some people believe the purpose of education should be helping the individual to become useful for society, while others believe it should help individuals to achieve their ambitions.\n\nDiscuss both sides and give your opinion."
+    },
+    {
+      "id": "discussion-087",
+      "type": "discussion",
+      "text": "Some people think students should study the science of food and how to prepare it. Others think students should spend time on important subjects.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-088",
+      "type": "discussion",
+      "text": "Some people think parents are responsible for transporting their children to school. Others think it is the government's responsibility.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-089",
+      "type": "discussion",
+      "text": "Some feel that the effects of advertising are positive for individuals and businesses, while others think they are negative.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-090",
+      "type": "discussion",
+      "text": "Some think that climate change reforms will negatively affect business. Others feel they are an opportunity for businesses.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-091",
+      "type": "discussion",
+      "text": "Some people say that bicycles are a good, modern means of transportation. Others say riding a bicycle has clear disadvantages.\n\nDiscuss both viewpoints and give your own opinion."
+    },
+    {
+      "id": "discussion-092",
+      "type": "discussion",
+      "text": "Some think scientists should be allowed to send messages into space to communicate with other life forms while others believe this is too dangerous.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-093",
+      "type": "discussion",
+      "text": "Some feel executives in large companies should receive high salaries while others think they are paid too much compared to ordinary workers.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-094",
+      "type": "discussion",
+      "text": "Some believe that advances in technology are increasing the gap between rich and poor while others think the opposite is happening.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-095",
+      "type": "discussion",
+      "text": "Some people think that cities are the best places to live. Others prefer to live in rural areas.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-096",
+      "type": "discussion",
+      "text": "Many companies sponsor sports as a way of advertising themselves. Some people think this is good for the world of sport, while others think it is a negative.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-097",
+      "type": "discussion",
+      "text": "Some people believe that there should be a fixed punishment for each type of crime. Others, however, argue that the circumstances of an individual crime, and the motivation for committing it, should always be taken into account when deciding on the punishment.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-098",
+      "type": "discussion",
+      "text": "Some people believe that children that commit crimes should be punished. Others think the parents should be punished instead.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-099",
+      "type": "discussion",
+      "text": "Some believe that it is beneficial to show foreign films while others feel this can have a negative impact on local culture.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-100",
+      "type": "discussion",
+      "text": "Some scientists believe that in the future computers will be more intelligent than human beings. While some see this as a positive development others worry about the negative consequences.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-101",
+      "type": "discussion",
+      "text": "Some people say that advertising is extremely successful at persuading us to buy things. Other people think that advertising is so common that we no longer pay attention to it.\n\nDiscuss both these views and give your own opinion."
+    },
+    {
+      "id": "discussion-102",
+      "type": "discussion",
+      "text": "Some people think that resources should be spent on protecting wild animals, while others think those would be better used for the human population.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-103",
+      "type": "discussion",
+      "text": "Some think schools should reward students who have the best academic results, while others think it's more important to reward students who achieve other types of success (such as sports, music, and good behaviour).\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-104",
+      "type": "discussion",
+      "text": "Some educational systems make students study specialised subjects from the age of fifteen while others require students to study a wide range.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-105",
+      "type": "discussion",
+      "text": "Some people argue children should stay in school until the age of 18 while others think that 14 years is long enough.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-106",
+      "type": "discussion",
+      "text": "Many people think that zoos are cruel. Others think they are helpful in protecting rare animals.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-107",
+      "type": "discussion",
+      "text": "Some people like to spend their leisure time after work with co-workers while others prefer to keep their private life separate from their work life.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-108",
+      "type": "discussion",
+      "text": "Some people believe that one-on-one lessons are better for learning while others think that group lessons are superior.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-109",
+      "type": "discussion",
+      "text": "Some think that quality art can be made by anyone while others think that it requires special talent and ability.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-110",
+      "type": "discussion",
+      "text": "In many countries, teenagers are encouraged to find part-time jobs. Some think this is a good development while others disagree.\n\nDiscuss both sides and give your own opinion."
+    },
+    {
+      "id": "discussion-111",
+      "type": "discussion",
+      "text": "Some believe that history has little to teach us about today while others think that the study of the past helps us to understand the present.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-112",
+      "type": "discussion",
+      "text": "Many people believe that music is just a form of entertainment, whilst others believe that music has a much larger impact on society today.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-113",
+      "type": "discussion",
+      "text": "Some believe that the best way to stay fit is to join a gym or health club while others think doing everyday activities such as walking and climbing stairs is enough.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-114",
+      "type": "discussion",
+      "text": "Some people argue that job satisfaction is more important than job security, while others believe that they cannot always expect job satisfaction and a permanent job is more important.\n\nDiscuss both these views and give your own opinion."
+    },
+    {
+      "id": "discussion-115",
+      "type": "discussion",
+      "text": "Some think that governments should support retired people financially while others believe they should take care of themselves.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-116",
+      "type": "discussion",
+      "text": "Some believe that people are naturally born as leaders while others feel that leadership skills can develop.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-117",
+      "type": "discussion",
+      "text": "Many think that in today's world it is very difficult for people to maintain a healthy lifestyle. Others, however, feel that it is easy for people to be healthy and fit if they want to be.\n\nDiscuss both views and give your opinion."
+    },
+    {
+      "id": "discussion-118",
+      "type": "discussion",
+      "text": "Some people think that paying taxes is their only responsibility towards society while others feel that everyone should do more.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-119",
+      "type": "discussion",
+      "text": "Some people believe that education is the key to tackling hunger worldwide while others feel that the answer is in food aid.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-120",
+      "type": "discussion",
+      "text": "Some people say that it is acceptable to test medicine intended for people on animals. Others, however, believe that it is not right to use animals in this research.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-121",
+      "type": "discussion",
+      "text": "Some people believe that allowing children to make their own choices on everyday matters (such as food, clothes and entertainment) is likely to result in a society of individuals who only think about their own wishes. Other people believe that it is important for children to make decisions about matters that affect them.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-122",
+      "type": "discussion",
+      "text": "Many parents encourage young people to leave home when they become older, while others think they should stay at home with the family.\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-123",
+      "type": "discussion",
+      "text": "Many people believe that every individual is responsible for his/her own healthy lifestyle. Others believe that governments should take care of it.\n\nDiscuss both these views and give your own opinion."
+    },
+    {
+      "id": "discussion-124",
+      "type": "discussion",
+      "text": "In a number of countries, some people think it is necessary to spend large sums of money on constructing new railway lines for very fast trains between cities. Others believe the money should be spent on improving existing public transport.\n\nDiscuss both these views and give your own opinion."
+    },
+    {
+      "id": "discussion-125",
+      "type": "discussion",
+      "text": "Some people say that the main environmental problem of our time is the loss of particular species of plants and animals. Others say that there are more important environmental problems.\n\nDiscuss both these views and give your own opinion."
+    },
+    {
+      "id": "discussion-126",
+      "type": "discussion",
+      "text": "Some people believe that it is best to accept a bad situation, such as an unsatisfactory job or shortage of money. Others argue that it is better to try and improve such situations.\n\nDiscuss both these views and give your own opinion."
+    },
+    {
+      "id": "discussion-127",
+      "type": "discussion",
+      "text": "Some people believe that it is good to share as much information as possible in scientific research, business, and the academic world. Others believe that some information is too important or too valuable to be shared freely.\n\nDiscuss both these views and give your own opinion."
+    },
+    {
+      "id": "discussion-128",
+      "type": "discussion",
+      "text": "Some people think that governments should invest mainly in making public transportation faster while others think there are more important priorities (cost, the environment).\n\nDiscuss both views and give your own opinion."
+    },
+    {
+      "id": "discussion-129",
+      "type": "discussion",
+      "text": "Some people say history is one of the most important school subjects. Other people think that, in today's world, subjects like science and technology are more important than history.\n\nDiscuss both these views and give your own opinion."
+    },
+    {
+      "id": "discussion-130",
+      "type": "discussion",
+      "text": "Some people think that it is a waste of money for countries to host big sporting events like the World Cup, and that the money would be better spent on other things. However, others think that hosting large sporting events has a clear, positive impact on a country.\n\nDiscuss both these views and give your opinion."
+    },
+    {
+      "id": "advantages-disadvantages-001",
       "type": "advantages-disadvantages",
-      "text": "More and more people are choosing to shop online rather than in physical stores.\n\nDo the advantages of this trend outweigh the disadvantages?"
+      "text": "Nowadays, it is easier for young people to have a credit card compared to the past.\n\nDo the advantages of this trend outweigh the disadvantages?"
     },
     {
-      "id": "sample-advantages-disadvantages-2",
+      "id": "advantages-disadvantages-002",
       "type": "advantages-disadvantages",
-      "text": "In many countries, young people take a year off between finishing school and starting university.\n\nWhat are the advantages and disadvantages of this?"
+      "text": "Some people have decided to reduce the number of times they fly every year or to stop flying altogether.\n\nDo you think the environmental benefits of this development outweigh the disadvantages for individuals and businesses?"
     },
     {
-      "id": "sample-problem-solution-1",
+      "id": "advantages-disadvantages-003",
+      "type": "advantages-disadvantages",
+      "text": "Health services are a basic necessity. However, private companies have made them quite costly for ordinary individuals.\n\nDo the advantages of private health care outweigh its disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-004",
+      "type": "advantages-disadvantages",
+      "text": "In many cities, planners tend to arrange shops, schools, offices and homes in specific areas and separate them from each other.\n\nDo you think the advantages of this policy outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-005",
+      "type": "advantages-disadvantages",
+      "text": "Young people are often influenced in their behaviors by others in the same age group. Some argue that peer pressure is important while others feel it has distinct disadvantages.\n\nDo the disadvantages of peer pressure outweigh the advantages?"
+    },
+    {
+      "id": "advantages-disadvantages-006",
+      "type": "advantages-disadvantages",
+      "text": "Nowadays, most countries can improve the standard of living through economic development, but some social values are lost as a result.\n\nDo you think the advantages of this phenomenon outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-007",
+      "type": "advantages-disadvantages",
+      "text": "Many people argue that restaurants should be required to disclose the nutritional information of the dishes they serve.\n\nDo the advantages of this outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-008",
+      "type": "advantages-disadvantages",
+      "text": "Around the world, people are now living longer than ever before in the past. Some say an ageing population creates problems for governments. Others believe there are benefits to society having more elderly people.\n\nTo what extent do the advantages of possessing an ageing population outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-009",
+      "type": "advantages-disadvantages",
+      "text": "New technologies have changed the way children spend their free time.\n\nDo you think the advantages of this trend outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-010",
+      "type": "advantages-disadvantages",
+      "text": "It has been suggested that primary children should learn how to grow vegetables and keep animals.\n\nDo the advantages of this outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-011",
+      "type": "advantages-disadvantages",
+      "text": "It is important for people to take risks, in both their professional lives and personal lives.\n\nDo the advantages of taking these risks outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-012",
+      "type": "advantages-disadvantages",
+      "text": "Some people say patriotism causes problems and is negative overall. Others feel that it is beneficial for society at large.\n\nDo the advantages of patriotism outweigh its disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-013",
+      "type": "advantages-disadvantages",
+      "text": "In many cities, problems related to overpopulation are becoming more common. Some governments are now encouraging businesses and individuals to move out of cities to rural areas.\n\nDo the advantages of this trend outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-014",
+      "type": "advantages-disadvantages",
+      "text": "Nowadays, a lot of offices employ open-space designs instead of separate rooms for work.\n\nDo the advantages of this outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-015",
+      "type": "advantages-disadvantages",
+      "text": "The world should have only one government rather than a national government for each country.\n\nDo the advantages of this outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-016",
+      "type": "advantages-disadvantages",
+      "text": "People these days watch TV, films and other programmes alone rather than with other people.\n\nDo the advantages of this development outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-017",
+      "type": "advantages-disadvantages",
+      "text": "In the future all cars, buses and trucks will be driverless. The only people travelling inside these vehicles will be passengers.\n\nDo you think the advantages of driverless vehicles outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-018",
+      "type": "advantages-disadvantages",
+      "text": "People nowadays tend to have children at older ages.\n\nDo the advantages of this outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-019",
+      "type": "advantages-disadvantages",
+      "text": "Nowadays the differences between countries are becoming less evident because people follow the same media.\n\nDo the advantages of this trend outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-020",
+      "type": "advantages-disadvantages",
+      "text": "Fewer and fewer children are willing to look after their parents as they get older these days.\n\nDo the advantages of this trend outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-021",
+      "type": "advantages-disadvantages",
+      "text": "It is now possible for scientists and tourists to travel to remote natural environments, such as the South Pole.\n\nDo the advantages of this development outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-022",
+      "type": "advantages-disadvantages",
+      "text": "Machines are taking over more and more jobs previously done by humans.\n\nDiscuss the advantages and disadvantages and give your own opinion."
+    },
+    {
+      "id": "advantages-disadvantages-023",
+      "type": "advantages-disadvantages",
+      "text": "The personal information of many individuals is held by large internet companies and organisations.\n\nDo you think the advantages of this outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-024",
+      "type": "advantages-disadvantages",
+      "text": "In the past, knowledge was contained in books. Nowadays, knowledge is uploaded to the internet.\n\nDo the advantages of this outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-025",
+      "type": "advantages-disadvantages",
+      "text": "In the past, most people worked for small businesses, while more people now work for large businesses.\n\nWhat are the advantages and disadvantages of working for large businesses?"
+    },
+    {
+      "id": "advantages-disadvantages-026",
+      "type": "advantages-disadvantages",
+      "text": "In many countries, plastic containers have become more common than ever and are used by many food and drink companies.\n\nDo you think the advantages outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-027",
+      "type": "advantages-disadvantages",
+      "text": "In many workplaces, online communication is now more common than face-to-face meetings.\n\nDo the advantages of this trend outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-028",
+      "type": "advantages-disadvantages",
+      "text": "Many large supermarkets are being built today while the number of small shops is decreasing.\n\nDo the advantages of this outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-029",
+      "type": "advantages-disadvantages",
+      "text": "The global demand for oil and gas is increasing. Some believe that we should therefore encourage the exploitation of remote areas.\n\nDo the advantages of this outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-030",
+      "type": "advantages-disadvantages",
+      "text": "In many countries, fast food is becoming cheaper and more widely available.\n\nDo the disadvantages of this outweigh the advantages?"
+    },
+    {
+      "id": "advantages-disadvantages-031",
+      "type": "advantages-disadvantages",
+      "text": "Many retired people today are choosing to live in other countries.\n\nWhat are the advantages and disadvantages of this?"
+    },
+    {
+      "id": "advantages-disadvantages-032",
+      "type": "advantages-disadvantages",
+      "text": "In some cultures, children are often told that they can achieve anything if they try hard enough.\n\nWhat are the advantages and disadvantages of giving children this message?"
+    },
+    {
+      "id": "advantages-disadvantages-033",
+      "type": "advantages-disadvantages",
+      "text": "Many schools today require students to work without pay for companies as part of their education.\n\nIs this more advantageous to students or companies?"
+    },
+    {
+      "id": "advantages-disadvantages-034",
+      "type": "advantages-disadvantages",
+      "text": "Some believe that we should invent a new language for international communication.\n\nDo the advantages of this outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-035",
+      "type": "advantages-disadvantages",
+      "text": "These days people spend more and more time at work and less time at home.\n\nWhat are the advantages and disadvantages of this?"
+    },
+    {
+      "id": "advantages-disadvantages-036",
+      "type": "advantages-disadvantages",
+      "text": "The use of social media is replacing face-to-face interaction among many people in society.\n\nDo you think the advantages outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-037",
+      "type": "advantages-disadvantages",
+      "text": "Many museums charge for admission while others are free.\n\nDo you think the advantages of charging people for admission to museums outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-038",
+      "type": "advantages-disadvantages",
+      "text": "At the present time, the population of some countries includes a relatively large number of young adults, compared with the number of older people.\n\nDo the advantages of this situation outweigh the disadvantages?"
+    },
+    {
+      "id": "advantages-disadvantages-039",
+      "type": "advantages-disadvantages",
+      "text": "Recent research has shown that business meetings and training are increasingly taking place online.\n\nWhat are the advantages and disadvantages of this?"
+    },
+    {
+      "id": "advantages-disadvantages-040",
+      "type": "advantages-disadvantages",
+      "text": "Giving children and adolescents pocket money is common throughout the world.\n\nDiscuss the advantages and disadvantages of this practice and give your own opinion."
+    },
+    {
+      "id": "problem-solution-001",
       "type": "problem-solution",
-      "text": "Traffic congestion is becoming a serious problem in many cities around the world.\n\nWhat are the causes of this problem, and what measures could be taken to solve it?"
+      "text": "The world has many towns and cities constructed in previous centuries that were more suitable and livable for people in those times than they are now.\n\nWhat problems will this cause?\nWhat can be done to solve these problems?"
     },
     {
-      "id": "sample-problem-solution-2",
+      "id": "problem-solution-002",
       "type": "problem-solution",
-      "text": "Many young people today spend too much time on social media.\n\nWhat problems does this cause, and what solutions can you suggest?"
+      "text": "Eco-tourism often involves visiting remote and fragile ecosystems, which raises concerns about the impact on local cultures and indigenous communities.\n\nWhat problems can this cause?\nHow can these problems be resolved?"
     },
     {
-      "id": "sample-two-part-1",
-      "type": "two-part",
-      "text": "Nowadays, more and more people choose to live alone.\n\nWhy is this the case? Is this a positive or negative development?"
+      "id": "problem-solution-003",
+      "type": "problem-solution",
+      "text": "In some parts of the world traditional festivals and celebrations have disappeared or are disappearing.\n\nWhat problems is this causing?\nWhat measures could be taken to counter this situation?"
     },
     {
-      "id": "sample-two-part-2",
+      "id": "problem-solution-004",
+      "type": "problem-solution",
+      "text": "A rise in the standard of living in a country often only seems to benefit cities rather than rural areas.\n\nWhat problems can this cause?\nHow might these problems be reduced?"
+    },
+    {
+      "id": "problem-solution-005",
+      "type": "problem-solution",
+      "text": "Today, many people do not know their neighbors in large cities.\n\nWhat problems does this cause?\nWhat can be done about this?"
+    },
+    {
+      "id": "problem-solution-006",
+      "type": "problem-solution",
+      "text": "Nowadays more and more older people who need employment have to compete with younger people for the same jobs.\n\nWhat problems does this cause?\nWhat are the solutions?"
+    },
+    {
+      "id": "problem-solution-007",
+      "type": "problem-solution",
+      "text": "Many people who care for the elderly do not have enough time to look after them.\n\nWhat are the problems related to this?\nWhat are some possible solutions?"
+    },
+    {
+      "id": "problem-solution-008",
+      "type": "problem-solution",
+      "text": "More and more people in developing countries are purchasing cars for the first time.\n\nWhat problems does this cause?\nWhat do you think are the possible solutions?"
+    },
+    {
+      "id": "problem-solution-009",
+      "type": "problem-solution",
+      "text": "Many people try to balance work and other parts of their life. However, this is very difficult to do.\n\nWhat are the problems associated with this?\nWhat is the best way to achieve a better balance?"
+    },
+    {
+      "id": "problem-solution-010",
+      "type": "problem-solution",
+      "text": "Living in large cities today poses many problems for people.\n\nWhat are these problems?\nShould governments encourage more people to live in smaller towns?"
+    },
+    {
+      "id": "problem-solution-011",
+      "type": "problem-solution",
+      "text": "Many people don't feel safe either when they are at home or when they go out.\n\nWhat are the reasons for this?\nWhat can be done to solve this problem?"
+    },
+    {
+      "id": "problem-solution-012",
+      "type": "problem-solution",
+      "text": "Many people feel that media coverage has become increasingly biased today.\n\nWhy is this?\nWhat can be done to fix this problem?"
+    },
+    {
+      "id": "problem-solution-013",
+      "type": "problem-solution",
+      "text": "The increasing frequency of satellite launches and space debris is becoming a threat to the Earth.\n\nWhat are the main causes?\nWhat measures can be taken to address this?"
+    },
+    {
+      "id": "problem-solution-014",
+      "type": "problem-solution",
+      "text": "Today, many people do not know their neighbors.\n\nWhy is this?\nWhat can be done about this?"
+    },
+    {
+      "id": "problem-solution-015",
+      "type": "problem-solution",
+      "text": "Environmental damage is a problem in most countries.\n\nWhat is the cause of this damage?\nWhat should be done about this problem?"
+    },
+    {
+      "id": "problem-solution-016",
+      "type": "problem-solution",
+      "text": "Fewer young people play sports these days.\n\nWhy is this?\nWhat can be done to encourage more young people to do sports?"
+    },
+    {
+      "id": "problem-solution-017",
+      "type": "problem-solution",
+      "text": "Research shows that some activities are good for health and others are bad. Despite knowing that, millions of people engage in unhealthy activities.\n\nWhat is the cause of this?\nWhat can be done?"
+    },
+    {
+      "id": "problem-solution-018",
+      "type": "problem-solution",
+      "text": "Many doctors recommend that older people exercise regularly, but most patients do not follow an exercise routine.\n\nWhy do you think this happens?\nHow can people be encouraged to exercise regularly?"
+    },
+    {
+      "id": "problem-solution-019",
+      "type": "problem-solution",
+      "text": "There is too much noise in many public places in cities.\n\nWhat are the causes of this problem?\nWhat can be done to solve the problem?"
+    },
+    {
+      "id": "problem-solution-020",
+      "type": "problem-solution",
+      "text": "Recent research suggests that the majority of criminals who are sent to prison commit crimes after they are released.\n\nWhy is this the case?\nWhat can be done to solve this problem?"
+    },
+    {
+      "id": "problem-solution-021",
+      "type": "problem-solution",
+      "text": "Not many young people in countries around the world go to and enjoy concerts and plays.\n\nWhy is this the case?\nHow should they be encouraged to attend?"
+    },
+    {
+      "id": "problem-solution-022",
+      "type": "problem-solution",
+      "text": "Children are now facing educational, social, and commercial pressures.\n\nWhat are the causes of these pressures?\nWhat measures can be taken to reduce them?"
+    },
+    {
+      "id": "problem-solution-023",
+      "type": "problem-solution",
+      "text": "Not all drivers obey the laws while driving on roads.\n\nWhat are the reasons for this?\nWhat can be done to fix this problem?"
+    },
+    {
+      "id": "problem-solution-024",
+      "type": "problem-solution",
+      "text": "Many students find it difficult to focus or pay attention at school nowadays.\n\nWhat are the reasons for this?\nWhat can be done to solve this problem?"
+    },
+    {
+      "id": "problem-solution-025",
+      "type": "problem-solution",
+      "text": "In many countries, the number of animals and plants is declining.\n\nWhy do you think this is happening?\nHow can this issue be solved?"
+    },
+    {
+      "id": "problem-solution-026",
+      "type": "problem-solution",
+      "text": "Nowadays many countries are facing problems related to waste disposal.\n\nWhy is this the case?\nHow can this issue be tackled?"
+    },
+    {
+      "id": "problem-solution-027",
+      "type": "problem-solution",
+      "text": "Many students find it is harder to study at university or college compared to when they were in grade school.\n\nWhy is this?\nWhat are some possible solutions for this problem?"
+    },
+    {
+      "id": "problem-solution-028",
+      "type": "problem-solution",
+      "text": "Childhood obesity has become a serious problem in recent years.\n\nWhat are the primary causes of this?\nWhat measures should be taken to reduce childhood obesity?"
+    },
+    {
+      "id": "problem-solution-029",
+      "type": "problem-solution",
+      "text": "Despite the benefits for health, fewer people today than ever before exercise by walking.\n\nWhy is this?\nWhat can be done to encourage more walking?"
+    },
+    {
+      "id": "problem-solution-030",
+      "type": "problem-solution",
+      "text": "Some people play sport when they are young but then stop doing physical exercise when they become adults.\n\nWhy is this?\nWhat can be done to solve this problem?"
+    },
+    {
+      "id": "problem-solution-031",
+      "type": "problem-solution",
+      "text": "Many people living in cities these days do not get enough physical exercise.\n\nWhat are the causes of this?\nWhat are some possible solutions?"
+    },
+    {
+      "id": "problem-solution-032",
+      "type": "problem-solution",
+      "text": "The amount of drinkable water for people is decreasing.\n\nWhy is this?\nWhat can be done?"
+    },
+    {
+      "id": "problem-solution-033",
+      "type": "problem-solution",
+      "text": "In some places, young people find it difficult to communicate with older people.\n\nWhy is this?\nWhat are the solutions?"
+    },
+    {
+      "id": "problem-solution-034",
+      "type": "problem-solution",
+      "text": "In many countries, people throw away a lot of food from restaurants and shops.\n\nWhy do you think people waste food in this way?\nWhat can be done to reduce the amount of food thrown away?"
+    },
+    {
+      "id": "problem-solution-035",
+      "type": "problem-solution",
+      "text": "When cars and cyclists use the same roads, there are often problems.\n\nWhy is this the case?\nWhat are the solutions?"
+    },
+    {
+      "id": "problem-solution-036",
+      "type": "problem-solution",
+      "text": "Some old people today struggle with the use of modern technologies such as smartphones and computers.\n\nWhat is the cause of this?\nWhat are some possible solutions?"
+    },
+    {
+      "id": "problem-solution-037",
+      "type": "problem-solution",
+      "text": "The increase in the production of consumer goods results in damage to the natural environment.\n\nWhat are the causes of this?\nWhat can be done to solve this problem?"
+    },
+    {
+      "id": "problem-solution-038",
+      "type": "problem-solution",
+      "text": "Plagiarism in academics has become a pressing problem in many countries today.\n\nWhat are the causes of this problem?\nWhat are some possible solutions?"
+    },
+    {
+      "id": "problem-solution-039",
+      "type": "problem-solution",
+      "text": "The roads in major cities today are often difficult to travel on.\n\nWhat are the causes of this?\nWhat are some possible solutions?"
+    },
+    {
+      "id": "problem-solution-040",
+      "type": "problem-solution",
+      "text": "More and more people today are drinking sugar-based drinks.\n\nWhat are the reasons for this?\nWhat are the solutions?"
+    },
+    {
+      "id": "problem-solution-041",
+      "type": "problem-solution",
+      "text": "Nowadays children watch much more television than they did in the past and spend less time being active or creative.\n\nWhat is the reason for this?\nWhat measures should be taken to encourage children to be more active?"
+    },
+    {
+      "id": "problem-solution-042",
+      "type": "problem-solution",
+      "text": "In spite of the advances made in agriculture, many people around the world still go hungry.\n\nWhy is this the case?\nWhat can be done about this problem?"
+    },
+    {
+      "id": "problem-solution-043",
+      "type": "problem-solution",
+      "text": "In many countries, crime rates among younger people have been rising.\n\nDiscuss the causes and solutions for this problem."
+    },
+    {
+      "id": "two-part-001",
       "type": "two-part",
-      "text": "People today read fewer books than they did in the past.\n\nWhy do you think this is happening? Do you think this is a positive or negative development?"
+      "text": "In education and employment, some people work harder than others.\n\nWhy do some people work harder?\nIs it always good to work hard?"
+    },
+    {
+      "id": "two-part-002",
+      "type": "two-part",
+      "text": "Water pollution has become one of the most pressing environmental issues in many parts of the world.\n\nWhy is water pollution a growing concern for both individuals and governments?\nWhat measures can be taken to reduce the problem effectively?"
+    },
+    {
+      "id": "two-part-003",
+      "type": "two-part",
+      "text": "Many aspects of the way people dress today are influenced by global fashion trends.\n\nHow has global fashion become such a strong influence on people's lives?\nDo you think this is a positive or negative development?"
+    },
+    {
+      "id": "two-part-004",
+      "type": "two-part",
+      "text": "In many countries, primary and secondary schools close for two months or more in the summer holidays.\n\nWhat is the value of long school holidays?\nWhat are the arguments in favour of shorter school holidays?"
+    },
+    {
+      "id": "two-part-005",
+      "type": "two-part",
+      "text": "In many workplaces, creativity and imagination are becoming more valued than technical expertise.\n\nWhy is this the case?\nIs this a positive or negative development?"
+    },
+    {
+      "id": "two-part-006",
+      "type": "two-part",
+      "text": "In recent years, there has been a rise in the use of performance-enhancing drugs in sports.\n\nWhat are the consequences of doping for athletes?\nWhat measures should be taken to combat this issue?"
+    },
+    {
+      "id": "two-part-007",
+      "type": "two-part",
+      "text": "In numerous nations, there is a growing trend for individuals to frequently discuss financial matters, such as their earnings or expenditures, in everyday conversation.\n\nWhat are the reasons behind this phenomenon?\nIs it advantageous or detrimental?"
+    },
+    {
+      "id": "two-part-008",
+      "type": "two-part",
+      "text": "Some people choose to have their first child at an older age.\n\nWhat are the reasons?\nDo the advantages outweigh the disadvantages?"
+    },
+    {
+      "id": "two-part-009",
+      "type": "two-part",
+      "text": "Fewer and fewer people today write by hand using a pen or pencil.\n\nWhat are the reasons for this?\nIs this a positive or a negative development?"
+    },
+    {
+      "id": "two-part-010",
+      "type": "two-part",
+      "text": "The rise of social media platforms has made it easier for people to vent their frustrations and complaints publicly.\n\nWhat is the consequence of this trend?\nIs there any benefit to expressing complaints on social media?"
+    },
+    {
+      "id": "two-part-011",
+      "type": "two-part",
+      "text": "In many societies, there is a growing emphasis on sustainable living and reducing environmental impact.\n\nWhat are the challenges of adopting a sustainable lifestyle?\nWhat practical actions can individuals take to contribute to sustainability?"
+    },
+    {
+      "id": "two-part-012",
+      "type": "two-part",
+      "text": "Some countries have introduced laws to limit working hours for employees.\n\nWhy are these laws introduced?\nDo you think they are a positive or negative development?"
+    },
+    {
+      "id": "two-part-013",
+      "type": "two-part",
+      "text": "Nowadays, not enough students choose science subjects at university in many countries.\n\nWhy is this?\nWhat effects does this have on society?"
+    },
+    {
+      "id": "two-part-014",
+      "type": "two-part",
+      "text": "Car ownership has increased so rapidly over the past thirty years that in many cities around the world there are constant traffic jams.\n\nHow true do you think this statement is?\nWhat measures can governments take to discourage people from owning cars?"
+    },
+    {
+      "id": "two-part-015",
+      "type": "two-part",
+      "text": "Some children spend hours every day on their smartphones.\n\nWhy is this the case?\nDo you think this is a positive or a negative development?"
+    },
+    {
+      "id": "two-part-016",
+      "type": "two-part",
+      "text": "Some young people like to copy the behaviour and clothes of famous people today.\n\nWhy might this be the case?\nWhat problems can it cause?"
+    },
+    {
+      "id": "two-part-017",
+      "type": "two-part",
+      "text": "Advanced technology has brought many beneficial changes to the world. However, some old people today struggle with the use of technologies such as mobile phones and the Internet.\n\nHow can the elderly benefit from using advanced technologies?\nHow can the elderly be encouraged to use consumer electronics more often?"
+    },
+    {
+      "id": "two-part-018",
+      "type": "two-part",
+      "text": "There is more and more outrage and anger common in society today.\n\nWhy is this?\nIs this a positive or a negative development?"
+    },
+    {
+      "id": "two-part-019",
+      "type": "two-part",
+      "text": "These days consumers are faced with an increasing amount of advertising from various companies.\n\nTo what extent do you think consumers are influenced by advertising?\nWhat measures should be taken to protect them?"
+    },
+    {
+      "id": "two-part-020",
+      "type": "two-part",
+      "text": "In many countries, people now wear western clothes such as suits and jeans rather than traditional clothing.\n\nWhy is this the case?\nIs this a positive or negative development?"
+    },
+    {
+      "id": "two-part-021",
+      "type": "two-part",
+      "text": "More and more young people from wealthy countries are spending time in communities in poorer countries doing unpaid work such as teaching or building houses.\n\nWhy is this?\nWho benefits more from this, the communities or these young people?"
+    },
+    {
+      "id": "two-part-022",
+      "type": "two-part",
+      "text": "Weddings are getting bigger and more expensive.\n\nWhat is the reason for this?\nIs it a positive or negative development?"
+    },
+    {
+      "id": "two-part-023",
+      "type": "two-part",
+      "text": "Some people say that now is the best time in history to be living.\n\nWhat is your opinion about this?\nWhat other time in history would be interesting to live in?"
+    },
+    {
+      "id": "two-part-024",
+      "type": "two-part",
+      "text": "Today, TV channels broadcast men's sports shows more than women's sport shows.\n\nWhy is this the case?\nShould TV channels give equal showtime for each?"
+    },
+    {
+      "id": "two-part-025",
+      "type": "two-part",
+      "text": "Many young people today know more about international pop or movie stars than about famous people in the history of their own country.\n\nWhy is this?\nWhat can be done to increase young people's interest in famous people in the history of their country?"
+    },
+    {
+      "id": "two-part-026",
+      "type": "two-part",
+      "text": "There are different methods businesses use to increase their sales.\n\nWhat are the different ways companies use to increase sales?\nWhich one is the most effective?"
+    },
+    {
+      "id": "two-part-027",
+      "type": "two-part",
+      "text": "Many adults nowadays prefer spending their free time playing computer games.\n\nWhy do they do this?\nIs this a positive or negative development?"
+    },
+    {
+      "id": "two-part-028",
+      "type": "two-part",
+      "text": "Some believe children should be taught to give speeches and presentations in school.\n\nWhy is this?\nShould this be taught in schools?"
+    },
+    {
+      "id": "two-part-029",
+      "type": "two-part",
+      "text": "In many countries, increasing numbers of people are becoming interested in learning about the history of the house or building where they live.\n\nWhat are the reasons behind this?\nHow can individuals research this?"
+    },
+    {
+      "id": "two-part-030",
+      "type": "two-part",
+      "text": "In their advertising, businesses nowadays usually emphasise that their products are new in some way.\n\nWhy is this?\nDo you think it is a positive or negative development?"
+    },
+    {
+      "id": "two-part-031",
+      "type": "two-part",
+      "text": "Some people today prefer to get advice for medical problems and do not want to visit a doctor.\n\nWhy is this?\nIs this a positive or a negative development?"
+    },
+    {
+      "id": "two-part-032",
+      "type": "two-part",
+      "text": "In recent times, economic growth has helped many become richer, both in developed and developing countries. However, those in developed countries are not as happy as they were in the past.\n\nWhy is this?\nWhat can be learned from this?"
+    },
+    {
+      "id": "two-part-033",
+      "type": "two-part",
+      "text": "Some people spend a lot of money celebrating personal family events, such as weddings and birthdays.\n\nHow important is it to celebrate such events?\nDo you think people spend too much money on these events?"
+    },
+    {
+      "id": "two-part-034",
+      "type": "two-part",
+      "text": "Competition for university study is becoming increasingly strong.\n\nWhy are universities becoming more competitive?\nIs this a positive or negative development?"
+    },
+    {
+      "id": "two-part-035",
+      "type": "two-part",
+      "text": "Many people are working longer hours.\n\nWhy is this happening?\nWhat problems can this cause to people?"
+    },
+    {
+      "id": "two-part-036",
+      "type": "two-part",
+      "text": "Around the world more and more people today are living in urban areas.\n\nWhy is this?\nWhat problems does this cause?"
+    },
+    {
+      "id": "two-part-037",
+      "type": "two-part",
+      "text": "In some countries, there are fewer young people who listen to or play classical music these days.\n\nWhy is this?\nShould young people be encouraged to play or perform classical music?"
+    },
+    {
+      "id": "two-part-038",
+      "type": "two-part",
+      "text": "Nowadays people live longer after they retire.\n\nHow does this affect individuals and society?\nWhat can be done about this?"
+    },
+    {
+      "id": "two-part-039",
+      "type": "two-part",
+      "text": "Many educational institutions give greater importance to subjects related to science and ignore subjects such as drama and literature.\n\nWhy is this?\nIs this a positive or negative development?"
+    },
+    {
+      "id": "two-part-040",
+      "type": "two-part",
+      "text": "Shopping is now one of the most popular forms of leisure activities in many countries for young adults.\n\nWhy is this?\nDo you think this is a positive or a negative development?"
+    },
+    {
+      "id": "two-part-041",
+      "type": "two-part",
+      "text": "These days more fathers stay at home and take care of their children while mothers go out to work.\n\nWhat could be the reasons for this?\nIs it a positive or negative development?"
+    },
+    {
+      "id": "two-part-042",
+      "type": "two-part",
+      "text": "Many researchers believe that we can now study the behaviour of children to see if they will grow up to be criminals, while others disagree.\n\nTo what extent do you think crime is determined by genetics?\nIs it possible to stop children from growing up to be criminals?"
+    },
+    {
+      "id": "two-part-043",
+      "type": "two-part",
+      "text": "The manufacturing and use of cars damages the environment but their popularity is increasing.\n\nWhy is this?\nHow could this be controlled?"
+    },
+    {
+      "id": "two-part-044",
+      "type": "two-part",
+      "text": "In some countries, owning a home rather than renting one is very important for people.\n\nWhy might this be the case?\nDo you think this is a positive or negative situation?"
+    },
+    {
+      "id": "two-part-045",
+      "type": "two-part",
+      "text": "In some countries, governments provide payments for unemployed people.\n\nHow does this impact people?\nIs this a positive or negative development?"
+    },
+    {
+      "id": "two-part-046",
+      "type": "two-part",
+      "text": "Many parents today do not spend much time with their children.\n\nWhy is this?\nDoes this affect parents or children more?"
+    },
+    {
+      "id": "two-part-047",
+      "type": "two-part",
+      "text": "Many people today are choosing to travel to other countries.\n\nWhy is this happening?\nIs this a positive or negative development?"
+    },
+    {
+      "id": "two-part-048",
+      "type": "two-part",
+      "text": "A lot of companies and organisations require employees to wear uniforms.\n\nWhich kind of jobs are uniforms suitable for?\nAre there any disadvantages to wearing a uniform to work?"
+    },
+    {
+      "id": "two-part-049",
+      "type": "two-part",
+      "text": "Many people who drop out of school are more successful than those who complete their studies.\n\nWhy does this happen?\nWhat does it require to be successful?"
+    },
+    {
+      "id": "two-part-050",
+      "type": "two-part",
+      "text": "Watching TV shows and movies about crime is becoming more and more popular.\n\nWhy is this?\nWhat effect does that have on society?"
+    },
+    {
+      "id": "two-part-051",
+      "type": "two-part",
+      "text": "Some think that ambition is a good quality.\n\nIs it important to be ambitious?\nIs it a positive or negative characteristic?"
+    },
+    {
+      "id": "two-part-052",
+      "type": "two-part",
+      "text": "Nowadays, entertainers get paid more than politicians.\n\nWhat are the reasons for this?\nIs this a negative or positive development?"
+    },
+    {
+      "id": "two-part-053",
+      "type": "two-part",
+      "text": "Scientists have been warning for many years about environmental protection and how important it is to limit our personal energy consumption.\n\nWhat are the causes of the over-consumption of electricity?\nHow can people be encouraged to use less energy?"
+    },
+    {
+      "id": "two-part-054",
+      "type": "two-part",
+      "text": "People have historically attempted to achieve a perfect society. However, it is difficult to decide what a perfect society would be like.\n\nWhat would be the most important element of an ideal society?\nWhat can normal people do to make society more perfect?"
+    },
+    {
+      "id": "two-part-055",
+      "type": "two-part",
+      "text": "Compared to the past, more people are now studying abroad because it is more convenient and cheaper than before.\n\nDo you think this is beneficial to the foreign student's home country?\nWill this trend change much in the future?"
+    },
+    {
+      "id": "two-part-056",
+      "type": "two-part",
+      "text": "In many countries people are living in a \"throwaway society\" where things are used for a short time and thrown away.\n\nWhat are the causes of this?\nWhat problems does it lead to?"
+    },
+    {
+      "id": "two-part-057",
+      "type": "two-part",
+      "text": "Nowadays many people choose to be self-employed, rather than to work for a company or organisation.\n\nWhy might this be the case?\nWhat could be the disadvantages of being self-employed?"
+    },
+    {
+      "id": "two-part-058",
+      "type": "two-part",
+      "text": "Many supermarkets are selling more and more products that are imported from other countries instead of selling food that is locally sourced.\n\nWhat are the reasons for this?\nIs this a positive or negative development?"
     }
   ]
 }

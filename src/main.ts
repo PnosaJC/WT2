@@ -83,7 +83,19 @@ window.addEventListener("storage", (e) => {
   render();
 });
 
+// Refresh at local midnight so an open unfinished session immediately offers the new-day choice.
+function scheduleMidnightRefresh(): void {
+  const now = new Date();
+  const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+  window.setTimeout(() => {
+    ctx.persist();
+    render();
+    scheduleMidnightRefresh();
+  }, midnight.getTime() - now.getTime() + 250);
+}
+
 render();
+scheduleMidnightRefresh();
 loadQuestionBank().then((bank) => {
   ctx.bank = bank;
   render();

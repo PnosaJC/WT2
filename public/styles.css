@@ -492,3 +492,80 @@ a:focus-visible {
     font-size: 2rem;
   }
 }
+
+/* ---------- new-day choice ---------- */
+
+.rollover {
+  max-width: 720px;
+  margin: 2rem auto 0;
+}
+
+.rollover-copy {
+  color: var(--sub);
+  margin: 0.5rem 0 1.5rem;
+}
+
+.rollover-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.rollover-option {
+  min-height: 9rem;
+  padding: 1.25rem;
+  text-align: left;
+  color: var(--text);
+  background: var(--sub-alt);
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  font: inherit;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.rollover-option:hover,
+.rollover-option:focus-visible {
+  border-color: var(--main);
+  outline: none;
+}
+
+.rollover-title,
+.rollover-description {
+  display: block;
+}
+
+.rollover-title {
+  color: var(--main);
+  margin-bottom: 0.65rem;
+}
+
+.rollover-description {
+  color: var(--sub);
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+.rollover-option:hover .rollover-description {
+  color: var(--text);
+}
+
+.rollover-error {
+  margin-top: 1.5rem;
+}
+
+.history-row.abandoned .col-date,
+.history-row.abandoned .col-status {
+  color: var(--sub);
+}
+
+@media (max-width: 640px) {
+  .rollover-options {
+    grid-template-columns: 1fr;
+  }
+
+  .rollover-option {
+    min-height: auto;
+  }
+}

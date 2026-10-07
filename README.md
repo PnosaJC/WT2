@@ -11,7 +11,9 @@ Each day works like this:
 
 The **history** page shows every past session. The **stats** page shows your streak, a calendar heatmap, and counts by question type, including how many new questions are left for each type.
 
-Drafts save automatically. Everything is stored in your browser's `localStorage`, so use the same browser each time, and don't clear site data.
+Drafts save automatically. If an unfinished session reaches a new day, you can either continue it or archive it and start with three new questions. Archived writing remains available in History, and its questions remain used.
+
+Everything is stored in your browser's `localStorage`, so use the same browser each time, and don't clear site data.
 
 ## Questions
 
@@ -33,9 +35,9 @@ Questions live in [`public/questions.json`](public/questions.json):
 - `id` must be unique and must never change once used. The app uses the id to track which questions you've already done.
 - To add questions, copy them from howtodoielts.com and paste them to Kiro, which will format them into this file.
 
-The questions currently in the file are placeholder samples, and their ids start with `sample-`.
+The bank currently contains 477 questions across the five supported types.
 
-## Development
+## Running locally (optional)
 
 ```sh
 npm install

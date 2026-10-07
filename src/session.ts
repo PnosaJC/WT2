@@ -89,33 +89,74 @@ export function pickDailyQuestions(bank: Question[], used: Set<string>, rng: () 
 
 export type CurrentResult =
   | { kind: "session"; session: Session; created: boolean }
+  | { kind: "stale"; session: Session }
   | { kind: "exhausted"; typesAvailable: QuestionType[] };
 
-/**
- * The session the "today" page should show:
- * - an unfinished session (even from an earlier day) is continued, so work isn't lost at midnight;
- * - a session submitted today is shown as done;
- * - otherwise a new session with 3 fresh questions is created (mutates `data`).
- */
-export function getOrCreateCurrentSession(data: AppData, bank: Question[], today = localDateStr()): CurrentResult {
-  const latest = data.sessions[data.sessions.length - 1];
-  if (latest && (!latest.submittedAt || latest.date === today)) {
-    return { kind: "session", session: latest, created: false };
-  }
-  const pick = pickDailyQuestions(bank, usedQuestionIds(data));
-  if (!pick.ok) return { kind: "exhausted", typesAvailable: pick.typesAvailable };
-
-  const session: Session = {
+function newSession(questions: Question[], date: string): Session {
+  return {
     id: newId(),
-    date: today,
-    questions: pick.questions,
+    date,
+    questions,
     intros: {},
     introsLockedAt: null,
     chosenId: null,
     essay: "",
     submittedAt: null,
+    abandonedAt: null,
+    continuedOnDate: null,
     comments: [],
   };
+}
+
+function createSession(data: AppData, bank: Question[], today: string): CurrentResult {
+  const pick = pickDailyQuestions(bank, usedQuestionIds(data));
+  if (!pick.ok) return { kind: "exhausted", typesAvailable: pick.typesAvailable };
+
+  const session = newSession(pick.questions, today);
+  data.sessions.push(session);
+  return { kind: "session", session, created: true };
+}
+
+/**
+ * The session the "today" page should show:
+ * - an unfinished session from an earlier day requires a continue-or-replace choice;
+ * - choosing continue is remembered for the current local day;
+ * - a session submitted today is shown as done;
+ * - otherwise a new session with 3 fresh questions is created (mutates `data`).
+ */
+export function getOrCreateCurrentSession(data: AppData, bank: Question[], today = localDateStr()): CurrentResult {
+  const latest = data.sessions[data.sessions.length - 1];
+  if (latest && !latest.abandonedAt && !latest.submittedAt) {
+    if (latest.date !== today && latest.continuedOnDate !== today) return { kind: "stale", session: latest };
+    return { kind: "session", session: latest, created: false };
+  }
+  if (latest && latest.submittedAt && latest.date === today) {
+    return { kind: "session", session: latest, created: false };
+  }
+  return createSession(data, bank, today);
+}
+
+/** Remember that an older unfinished session should remain active today. */
+export function continueStaleSession(session: Session, today = localDateStr()): void {
+  session.continuedOnDate = today;
+}
+
+/**
+ * Replace an older unfinished session without deleting its work. The old questions
+ * remain used because the abandoned session stays in history.
+ */
+export function replaceStaleSession(
+  data: AppData,
+  bank: Question[],
+  stale: Session,
+  today = localDateStr(),
+): CurrentResult {
+  // Pick first: if the bank is exhausted, do not abandon the session.
+  const pick = pickDailyQuestions(bank, usedQuestionIds(data));
+  if (!pick.ok) return { kind: "exhausted", typesAvailable: pick.typesAvailable };
+
+  stale.abandonedAt = new Date().toISOString();
+  const session = newSession(pick.questions, today);
   data.sessions.push(session);
   return { kind: "session", session, created: true };
 }

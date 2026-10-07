@@ -58,6 +58,7 @@ function heatmap(ctx: AppContext): HTMLElement {
   const today = localDateStr();
   const done = completedDates(ctx.data);
   const started = new Set(ctx.data.sessions.map((s) => s.date));
+  const abandoned = new Set(ctx.data.sessions.filter((s) => s.abandonedAt).map((s) => s.date));
   const mondayOffset = (parseLocalDate(today).getDay() + 6) % 7; // 0 = monday
   const start = addDays(today, -(7 * (WEEKS - 1) + mondayOffset));
 
@@ -69,7 +70,13 @@ function heatmap(ctx: AppContext): HTMLElement {
       continue;
     }
     const cls = done.has(day) ? "on" : started.has(day) ? "partial" : "";
-    const note = done.has(day) ? "essay submitted" : started.has(day) ? "started, not submitted" : "no practice";
+    const note = done.has(day)
+      ? "essay submitted"
+      : abandoned.has(day)
+        ? "abandoned — writing saved in history"
+        : started.has(day)
+          ? "started, not submitted"
+          : "no practice";
     cells.push(h("span", { class: `cell ${cls}`, title: `${formatDate(day)} — ${note}` }));
   }
   return h("div", { class: "heatmap" }, ...cells);

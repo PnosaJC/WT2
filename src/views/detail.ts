@@ -5,6 +5,7 @@ import { MIN_ESSAY_WORDS, type Session } from "../types.js";
 import { questionBlock, readOnlyText, sectionTitle, wordsLabel } from "./common.js";
 
 export function statusLabel(s: Session): string {
+  if (s.abandonedAt) return "abandoned";
   if (s.submittedAt) return "submitted";
   if (s.chosenId) return "writing essay";
   if (s.introsLockedAt) return "intros locked";
@@ -21,7 +22,10 @@ export function renderSessionDetail(ctx: AppContext, s: Session): HTMLElement {
       h(
         "section",
         { class: "block" },
-        sectionTitle(s.submittedAt ? "essay" : "essay draft (not submitted)", wordsLabel(s.essay, MIN_ESSAY_WORDS)),
+        sectionTitle(
+          s.submittedAt ? "essay" : s.abandonedAt ? "essay draft (abandoned)" : "essay draft (not submitted)",
+          wordsLabel(s.essay, MIN_ESSAY_WORDS),
+        ),
         questionBlock(chosen),
         readOnlyText(s.essay, "essay-text"),
       ),

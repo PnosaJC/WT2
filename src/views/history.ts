@@ -15,7 +15,7 @@ export function renderHistory(ctx: AppContext): HTMLElement {
       const chosen = chosenQuestion(s);
       return h(
         "a",
-        { class: `history-row ${s.submittedAt ? "" : "incomplete"}`, href: `#/history/${s.id}` },
+        { class: `history-row ${s.abandonedAt ? "abandoned" : s.submittedAt ? "" : "incomplete"}`, href: `#/history/${s.id}` },
         h("span", { class: "col-date" }, formatDate(s.date)),
         h("span", { class: "col-type" }, chosen ? TYPE_LABELS[chosen.type] : "—"),
         h("span", { class: "col-words" }, s.submittedAt ? `${countWords(s.essay)} words` : ""),

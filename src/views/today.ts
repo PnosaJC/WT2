@@ -1,6 +1,15 @@
 import type { AppContext } from "../context.js";
 import { h } from "../dom.js";
-import { chosenQuestion, countWords, formatDate, getOrCreateCurrentSession, localDateStr, stageOf } from "../session.js";
+import {
+  chosenQuestion,
+  continueStaleSession,
+  countWords,
+  formatDate,
+  getOrCreateCurrentSession,
+  localDateStr,
+  replaceStaleSession,
+  stageOf,
+} from "../session.js";
 import { currentStreak } from "../stats.js";
 import { MIN_ESSAY_WORDS, QUESTION_TYPES, TYPE_LABELS, type QuestionType, type Session } from "../types.js";
 import { questionBlock, readOnlyText, wordsLabel, writer } from "./common.js";
@@ -11,6 +20,7 @@ export function renderToday(ctx: AppContext): HTMLElement {
 
   const current = getOrCreateCurrentSession(ctx.data, ctx.bank.questions);
   if (current.kind === "exhausted") return exhausted(current.typesAvailable);
+  if (current.kind === "stale") return staleSessionChoice(ctx, current.session);
   if (current.created) ctx.persist();
 
   const s = current.session;
@@ -24,6 +34,62 @@ export function renderToday(ctx: AppContext): HTMLElement {
     case "done":
       return doneStage(ctx, s);
   }
+}
+
+function staleSessionChoice(ctx: AppContext, s: Session): HTMLElement {
+  const error = h("div", { class: "rollover-error" });
+  const continuePrevious = () => {
+    continueStaleSession(s);
+    ctx.persist();
+    ctx.rerender();
+  };
+  const startNew = () => {
+    if (!ctx.bank.ok) return;
+    const result = replaceStaleSession(ctx.data, ctx.bank.questions, s);
+    if (result.kind === "exhausted") {
+      error.replaceChildren(exhausted(result.typesAvailable));
+      return;
+    }
+    ctx.persist();
+    ctx.rerender();
+  };
+
+  return h(
+    "div",
+    { class: "rollover" },
+    h("div", { class: "step" }, "a new day has started."),
+    h(
+      "p",
+      { class: "rollover-copy" },
+      `You have an unfinished session from ${formatDate(s.date)}. Your questions and writing are saved.`,
+    ),
+    h(
+      "div",
+      { class: "rollover-options" },
+      h(
+        "button",
+        { class: "rollover-option", onclick: continuePrevious },
+        h("span", { class: "rollover-title" }, "continue previous session"),
+        h("span", { class: "rollover-description" }, "keep the same questions and resume exactly where you stopped"),
+      ),
+      h(
+        "button",
+        { class: "rollover-option", onclick: startNew },
+        h("span", { class: "rollover-title" }, "start with new questions"),
+        h(
+          "span",
+          { class: "rollover-description" },
+          "archive this session in history and generate 3 new questions for today",
+        ),
+      ),
+    ),
+    h(
+      "p",
+      { class: "hint" },
+      "Your previous writing will not be deleted, and its questions will remain used.",
+    ),
+    error,
+  );
 }
 
 function header(s: Session, step: string): HTMLElement {

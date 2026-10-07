@@ -40,6 +40,10 @@ export interface Session {
   chosenId: string | null;
   essay: string;
   submittedAt: string | null;
+  /** Set when the user replaces an unfinished session on a later day. */
+  abandonedAt?: string | null;
+  /** The latest local date on which the user chose to continue this older session. */
+  continuedOnDate?: string | null;
   comments: Comment[];
 }
 

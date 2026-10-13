@@ -588,3 +588,56 @@ a:focus-visible {
     min-height: auto;
   }
 }
+
+/* ---------- plan box ---------- */
+
+.field-label {
+  color: var(--sub);
+  font-size: 0.75rem;
+  margin: 0.9rem 0 0.35rem;
+}
+
+.question + .field-label {
+  margin-top: 0;
+}
+
+.writer.plan {
+  min-height: 6rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  background: transparent;
+  border: 1px dashed var(--sub);
+}
+
+.writer.plan:focus {
+  border-style: solid;
+  border-color: var(--main);
+}
+
+.plan-review {
+  margin-bottom: 0.75rem;
+}
+
+.plan-review summary {
+  cursor: pointer;
+  list-style: none;
+  margin-top: 0;
+}
+
+.plan-review summary::-webkit-details-marker {
+  display: none;
+}
+
+.plan-review summary::before {
+  content: "▾ ";
+}
+
+.plan-review:not([open]) summary::before {
+  content: "▸ ";
+}
+
+.readonly.plan-text {
+  border-left-style: dashed;
+  font-size: 0.9rem;
+  color: var(--text);
+}

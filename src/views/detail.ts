@@ -2,7 +2,7 @@ import type { AppContext } from "../context.js";
 import { h } from "../dom.js";
 import { chosenQuestion, formatDate, formatTime, newId } from "../session.js";
 import { MIN_ESSAY_WORDS, type Session } from "../types.js";
-import { paragraphBreakdown, questionBlock, readOnlyText, sectionTitle, wordsLabel } from "./common.js";
+import { fieldLabel, paragraphBreakdown, planReview, questionBlock, readOnlyText, sectionTitle, wordsLabel } from "./common.js";
 
 export function statusLabel(s: Session): string {
   if (s.abandonedAt) return "abandoned";
@@ -43,6 +43,8 @@ export function renderSessionDetail(ctx: AppContext, s: Session): HTMLElement {
           "div",
           { class: `intro-review ${q.id === s.chosenId ? "chosen" : ""}` },
           questionBlock(q, i + 1),
+          planReview(s.plans?.[q.id]),
+          s.plans?.[q.id]?.trim() ? fieldLabel("introduction") : null,
           readOnlyText(s.intros[q.id] ?? ""),
           h(
             "div",

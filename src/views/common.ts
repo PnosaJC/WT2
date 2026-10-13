@@ -79,6 +79,54 @@ export function writer(opts: {
   };
 }
 
+/** Small label above a box inside a question card ("plan", "introduction"). */
+export function fieldLabel(text: string): HTMLElement {
+  return h("div", { class: "field-label" }, text);
+}
+
+/**
+ * Plan notes box. Enter on a "- " line continues the list; Enter on an empty "- " line ends it.
+ */
+export function planBox(opts: { value: string; onInput: (value: string) => void }): HTMLTextAreaElement {
+  const textarea = h("textarea", {
+    class: "writer plan",
+    placeholder: "plan your points…  (start a line with - for bullets)",
+    value: opts.value,
+    spellcheck: false,
+    autocomplete: "off",
+    oninput: () => opts.onInput(textarea.value),
+    onkeydown: (e: KeyboardEvent) => {
+      if (e.key !== "Enter" || e.shiftKey || e.isComposing) return;
+      const { selectionStart: start, selectionEnd: end, value } = textarea;
+      if (start !== end) return;
+      const lineStart = value.lastIndexOf("\n", start - 1) + 1;
+      const line = value.slice(lineStart, start);
+      const bullet = line.match(/^(\s*)- /);
+      if (!bullet) return;
+      e.preventDefault();
+      if (line.trim() === "-") {
+        // Empty bullet: end the list by removing it.
+        textarea.setRangeText("", lineStart, start, "end");
+      } else {
+        textarea.setRangeText(`\n${bullet[1]}- `, start, end, "end");
+      }
+      opts.onInput(textarea.value);
+    },
+  });
+  return textarea;
+}
+
+/** Read-only plan shown later (choose/essay stages, history). Collapsible; nothing if there's no plan. */
+export function planReview(plan: string | undefined, open = true): HTMLElement | null {
+  if (!plan?.trim()) return null;
+  return h(
+    "details",
+    { class: "plan-review", open },
+    h("summary", { class: "field-label" }, "plan"),
+    h("div", { class: "readonly plan-text" }, plan.trim()),
+  );
+}
+
 export function readOnlyText(text: string, className = ""): HTMLElement {
   return text.trim()
     ? h("div", { class: `readonly ${className}` }, text)

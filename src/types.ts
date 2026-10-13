@@ -36,6 +36,8 @@ export interface Session {
   date: string; // local YYYY-MM-DD the session was started
   questions: Question[]; // snapshot, so later edits to questions.json don't change history
   intros: Record<string, string>; // questionId → intro text
+  /** questionId → plan notes written before the intro. Optional: older sessions have none. */
+  plans?: Record<string, string>;
   introsLockedAt: string | null;
   chosenId: string | null;
   essay: string;

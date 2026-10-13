@@ -98,6 +98,7 @@ function newSession(questions: Question[], date: string): Session {
     date,
     questions,
     intros: {},
+    plans: {},
     introsLockedAt: null,
     chosenId: null,
     essay: "",

@@ -200,7 +200,26 @@ footer {
 .writer-foot {
   display: flex;
   justify-content: flex-end;
+  align-items: baseline;
+  gap: 1rem;
   margin-top: 0.4rem;
+}
+
+.paragraphs {
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 1rem;
+  color: var(--text);
+  font-size: 0.8rem;
+}
+
+.paragraphs .para-label {
+  color: var(--sub);
+}
+
+.readonly + .paragraphs {
+  margin: 0 0 0.5rem 1rem;
 }
 
 .counter {

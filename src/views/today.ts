@@ -182,6 +182,7 @@ function essayStage(ctx: AppContext, s: Session): HTMLElement {
     placeholder: "write your essay…",
     className: "essay",
     target: MIN_ESSAY_WORDS,
+    paragraphs: true,
     onInput: (v) => {
       s.essay = v;
       submitBtn.disabled = !v.trim();

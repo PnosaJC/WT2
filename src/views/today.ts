@@ -12,7 +12,7 @@ import {
 } from "../session.js";
 import { currentStreak } from "../stats.js";
 import { MIN_ESSAY_WORDS, QUESTION_TYPES, TYPE_LABELS, type QuestionType, type Session } from "../types.js";
-import { questionBlock, readOnlyText, wordsLabel, writer } from "./common.js";
+import { fieldLabel, planBox, planReview, questionBlock, readOnlyText, wordsLabel, writer } from "./common.js";
 import { renderSessionDetail } from "./detail.js";
 
 export function renderToday(ctx: AppContext): HTMLElement {
@@ -115,6 +115,13 @@ function introsStage(ctx: AppContext, s: Session): HTMLElement {
   });
 
   const cards = s.questions.map((q, i) => {
+    const plan = planBox({
+      value: s.plans?.[q.id] ?? "",
+      onInput: (v) => {
+        (s.plans ??= {})[q.id] = v;
+        ctx.persistSoon();
+      },
+    });
     const w = writer({
       value: s.intros[q.id] ?? "",
       placeholder: "write your introduction…",
@@ -125,14 +132,22 @@ function introsStage(ctx: AppContext, s: Session): HTMLElement {
         ctx.persistSoon();
       },
     });
-    return h("section", { class: "card" }, questionBlock(q, i + 1), w.root);
+    return h(
+      "section",
+      { class: "card" },
+      questionBlock(q, i + 1),
+      fieldLabel("plan"),
+      plan,
+      fieldLabel("introduction"),
+      w.root,
+    );
   });
   refresh();
 
   return h(
     "div",
     {},
-    header(s, "step 1 / 2 — write an introduction for each question"),
+    header(s, "step 1 / 2 — plan and write an introduction for each question"),
     ...cards,
     h("div", { class: "actions" }, h("span", { class: "hint" }, "drafts save automatically"), lockBtn),
   );
@@ -148,6 +163,8 @@ function chooseStage(ctx: AppContext, s: Session): HTMLElement {
         "section",
         { class: "card pickable" },
         questionBlock(q, i + 1),
+        planReview(s.plans?.[q.id]),
+        fieldLabel("introduction"),
         readOnlyText(s.intros[q.id] ?? ""),
         h(
           "div",
@@ -224,7 +241,7 @@ function essayStage(ctx: AppContext, s: Session): HTMLElement {
     "div",
     {},
     header(s, "step 2 / 2 — full essay"),
-    h("section", { class: "card" }, questionBlock(q), w.root),
+    h("section", { class: "card" }, questionBlock(q), planReview(s.plans?.[q.id]), w.root),
     h("div", { class: "actions" }, back, submitBtn),
   );
   queueMicrotask(() => {

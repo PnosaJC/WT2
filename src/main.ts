@@ -5,6 +5,7 @@ import { currentStreak } from "./stats.js";
 import { loadData, saveData, STORAGE_KEY } from "./storage.js";
 import { renderHistory, renderHistoryDetail } from "./views/history.js";
 import { renderStats } from "./views/stats.js";
+import { renderTask1 } from "./views/task1.js";
 import { renderToday } from "./views/today.js";
 
 const root = document.getElementById("app")!;
@@ -29,10 +30,11 @@ const ctx: AppContext = {
   },
 };
 
-type Route = { page: "today" } | { page: "history"; id?: string } | { page: "stats" };
+type Route = { page: "today" } | { page: "task1" } | { page: "history"; id?: string } | { page: "stats" };
 
 function currentRoute(): Route {
   const [page, id] = location.hash.replace(/^#\/?/, "").split("/");
+  if (page === "task1") return { page: "task1" };
   if (page === "history") return { page: "history", id: id || undefined };
   if (page === "stats") return { page: "stats" };
   return { page: "today" };
@@ -40,6 +42,7 @@ function currentRoute(): Route {
 
 function render(): void {
   if (saveTimer !== undefined) ctx.persist(); // flush pending draft before replacing the DOM
+  document.onpaste = null; // the task 1 setup page installs its own image-paste handler
   const route = currentRoute();
   const body =
     route.page === "history"
@@ -48,7 +51,10 @@ function render(): void {
         : renderHistory(ctx)
       : route.page === "stats"
         ? renderStats(ctx)
-        : renderToday(ctx);
+        : route.page === "task1"
+          ? renderTask1(ctx)
+          : renderToday(ctx);
+  root.classList.toggle("wide", route.page === "task1");
 
   const link = (page: Route["page"], label: string) =>
     h("a", { href: `#/${page}`, class: route.page === page ? "active" : "" }, label);
@@ -58,8 +64,8 @@ function render(): void {
     h(
       "header",
       { class: "top" },
-      h("a", { class: "logo", href: "#/today" }, h("span", {}, h("span", { class: "accent" }, "w"), "t2"), h("span", { class: "logo-sub" }, "ielts writing task 2")),
-      h("nav", {}, link("today", "today"), link("history", "history"), link("stats", "stats")),
+      h("a", { class: "logo", href: "#/today" }, h("span", {}, h("span", { class: "accent" }, "w"), "t2"), h("span", { class: "logo-sub" }, "ielts writing")),
+      h("nav", {}, link("today", "task 2"), link("task1", "task 1"), link("history", "history"), link("stats", "stats")),
       h("div", { class: "streak", title: "current streak" }, `streak ${streak}`),
     ),
     h("main", {}, body),

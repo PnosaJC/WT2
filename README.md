@@ -9,7 +9,11 @@ Each day works like this:
 3. You **pick one** of the three and write the **full essay**. The essay starts with your introduction already filled in, and the counter shows your progress towards 250 words.
 4. You **submit**. The essay is then locked, and you can add **self-review notes** to it at any time.
 
-The **history** page shows every past session. The **stats** page shows your streak, a calendar heatmap, and counts by question type, including how many new questions are left for each type.
+The **task 1** tab is for one Task 1 report a day, set up by hand: paste (Ctrl+V), drop or choose an image of the chart, map or diagram, type the question, and optionally tag its type. Then plan and write the report next to the image (150-word target, per-paragraph counts) and submit. An unfinished Task 1 is replaced with a fresh one on a new day; started reports stay in history as abandoned. Images are shrunk and stored in the browser's IndexedDB.
+
+Submitting **either** task counts towards the streak.
+
+The **history** page shows every past session from both tasks. The **stats** page shows your streak, a calendar heatmap, and counts by question type, including how many new questions are left for each type.
 
 Drafts save automatically. If an unfinished session reaches a new day, you can either continue it or archive it and start with three new questions. Archived writing remains available in History, and its questions remain used.
 

@@ -1,7 +1,7 @@
 import type { AppContext } from "../context.js";
 import { h } from "../dom.js";
 import { chosenQuestion, formatDate, formatTime, newId } from "../session.js";
-import { MIN_ESSAY_WORDS, type Session } from "../types.js";
+import { MIN_ESSAY_WORDS, type Comment, type Session } from "../types.js";
 import { fieldLabel, paragraphBreakdown, planReview, questionBlock, readOnlyText, sectionTitle, wordsLabel } from "./common.js";
 
 export function statusLabel(s: Session): string {
@@ -74,7 +74,8 @@ export function renderSessionDetail(ctx: AppContext, s: Session): HTMLElement {
   );
 }
 
-function renderComments(ctx: AppContext, s: Session): HTMLElement {
+/** Self-review notes for any submitted piece of writing (Task 2 session or Task 1 report). */
+export function renderComments(ctx: AppContext, s: { comments: Comment[] }): HTMLElement {
   const section = h("section", { class: "block comments" });
 
   const draw = () => {

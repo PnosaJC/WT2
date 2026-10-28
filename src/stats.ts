@@ -1,9 +1,19 @@
 import { addDays, chosenQuestion, countWords, localDateStr } from "./session.js";
-import { QUESTION_TYPES, type AppData, type QuestionType } from "./types.js";
+import { QUESTION_TYPES, TASK1_TYPES, type AppData, type QuestionType, type Task1Type } from "./types.js";
 
-/** Dates (session start day) that have a submitted essay. */
-export function completedDates(data: AppData): Set<string> {
+/** Dates with a submitted Task 2 essay. */
+export function task2Dates(data: AppData): Set<string> {
   return new Set(data.sessions.filter((s) => s.submittedAt).map((s) => s.date));
+}
+
+/** Dates with a submitted Task 1 report. */
+export function task1Dates(data: AppData): Set<string> {
+  return new Set((data.task1 ?? []).filter((e) => e.submittedAt).map((e) => e.date));
+}
+
+/** Dates that count towards the streak: either task submitted. */
+export function completedDates(data: AppData): Set<string> {
+  return new Set([...task2Dates(data), ...task1Dates(data)]);
 }
 
 /** Consecutive completed days ending today (or yesterday, if today isn't done yet). */
@@ -51,4 +61,24 @@ export function essayTotals(data: AppData): { essays: number; avgWords: number }
   const submitted = data.sessions.filter((s) => s.submittedAt);
   const words = submitted.reduce((sum, s) => sum + countWords(s.essay), 0);
   return { essays: submitted.length, avgWords: submitted.length ? Math.round(words / submitted.length) : 0 };
+}
+
+export function task1Totals(data: AppData): {
+  reports: number;
+  avgWords: number;
+  byType: Record<Task1Type | "untagged", { reports: number; words: number }>;
+} {
+  const byType = Object.fromEntries(
+    [...TASK1_TYPES, "untagged"].map((t) => [t, { reports: 0, words: 0 }]),
+  ) as Record<Task1Type | "untagged", { reports: number; words: number }>;
+  const submitted = (data.task1 ?? []).filter((e) => e.submittedAt);
+  let words = 0;
+  for (const e of submitted) {
+    const n = countWords(e.report);
+    words += n;
+    const row = byType[e.type ?? "untagged"];
+    row.reports++;
+    row.words += n;
+  }
+  return { reports: submitted.length, avgWords: submitted.length ? Math.round(words / submitted.length) : 0, byType };
 }

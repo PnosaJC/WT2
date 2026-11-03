@@ -245,8 +245,10 @@ function essayStage(ctx: AppContext, s: Session): HTMLElement {
     h("div", { class: "actions" }, back, submitBtn),
   );
   queueMicrotask(() => {
-    w.textarea.focus();
+    // Focus without scrolling, so the question and the whole plan stay visible above the essay.
+    w.textarea.focus({ preventScroll: true });
     w.textarea.setSelectionRange(w.textarea.value.length, w.textarea.value.length);
+    window.scrollTo(0, 0);
   });
   return page;
 }

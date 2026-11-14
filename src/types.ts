@@ -30,6 +30,11 @@ export interface Comment {
   createdAt: string; // ISO timestamp
 }
 
+export interface TimerState {
+  startedAt: string; // ISO timestamp
+  minutes: number;
+}
+
 /** One practice day: 3 questions → 3 intros → 1 full essay. */
 export interface Session {
   id: string;
@@ -46,6 +51,10 @@ export interface Session {
   abandonedAt?: string | null;
   /** The latest local date on which the user chose to continue this older session. */
   continuedOnDate?: string | null;
+  /** Countdown for step 1 (plans + intros). Absent until the user starts it. */
+  planTimer?: TimerState | null;
+  /** Countdown for the full essay. Absent until the user starts it. */
+  essayTimer?: TimerState | null;
   comments: Comment[];
 }
 

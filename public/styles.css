@@ -817,3 +817,81 @@ a:focus-visible {
     max-height: 50vh;
   }
 }
+
+/* ---------- task 2 timers ---------- */
+
+.timer {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.5rem;
+  margin: -0.5rem 0 1.25rem;
+  padding: 0.6rem 0;
+  background: var(--bg);
+}
+
+.timer-time {
+  min-width: 6.5ch;
+  color: var(--main);
+  font-size: 2.4rem;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  transition: color 0.2s;
+}
+
+.timer-time.warn,
+.timer-time.over {
+  color: var(--error);
+}
+
+.timer-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--sub);
+  font-size: 0.85rem;
+}
+
+.timer-label {
+  margin-right: 0.5rem;
+}
+
+.timer-step {
+  padding: 0.25rem 0.4rem;
+  font-size: 0.85rem;
+}
+
+.timer-input {
+  width: 4.2rem;
+  font: inherit;
+  font-size: 0.9rem;
+  text-align: center;
+  color: var(--text);
+  background: var(--sub-alt);
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  padding: 0.3rem 0.4rem;
+  outline: none;
+}
+
+.timer-input:focus {
+  border-color: var(--main);
+}
+
+.timer-start {
+  margin-left: 0.75rem;
+}
+
+@media (max-width: 640px) {
+  .timer-time {
+    font-size: 2rem;
+  }
+
+  .timer-start {
+    margin-left: 0;
+  }
+}

@@ -14,6 +14,7 @@ import { currentStreak } from "../stats.js";
 import { MIN_ESSAY_WORDS, QUESTION_TYPES, TYPE_LABELS, type QuestionType, type Session } from "../types.js";
 import { fieldLabel, planBox, planReview, questionBlock, readOnlyText, wordsLabel, writer } from "./common.js";
 import { renderSessionDetail } from "./detail.js";
+import { timerBar } from "./timer.js";
 
 export function renderToday(ctx: AppContext): HTMLElement {
   if (!ctx.bank.ok) return h("div", { class: "notice error" }, ctx.bank.error);
@@ -147,6 +148,15 @@ function introsStage(ctx: AppContext, s: Session): HTMLElement {
   return h(
     "div",
     {},
+    timerBar({
+      kind: "plan",
+      label: "planning",
+      state: s.planTimer,
+      onStart: (t) => {
+        s.planTimer = t;
+        ctx.persist();
+      },
+    }),
     header(s, "step 1 / 2 — plan and write an introduction for each question"),
     ...cards,
     h("div", { class: "actions" }, h("span", { class: "hint" }, "drafts save automatically"), lockBtn),
@@ -240,6 +250,15 @@ function essayStage(ctx: AppContext, s: Session): HTMLElement {
   const page = h(
     "div",
     {},
+    timerBar({
+      kind: "essay",
+      label: "writing",
+      state: s.essayTimer,
+      onStart: (t) => {
+        s.essayTimer = t;
+        ctx.persist();
+      },
+    }),
     header(s, "step 2 / 2 — full essay"),
     h("section", { class: "card" }, questionBlock(q), planReview(s.plans?.[q.id]), w.root),
     h("div", { class: "actions" }, back, submitBtn),

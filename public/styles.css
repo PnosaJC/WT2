@@ -770,6 +770,11 @@ a:focus-visible {
   align-items: start;
 }
 
+/* Sit the image + report row directly under the Task 1 heading, with no extra gap. */
+.page-head.t1-head {
+  margin-bottom: 0.5rem;
+}
+
 .t1-visual {
   position: sticky;
   top: 1rem;

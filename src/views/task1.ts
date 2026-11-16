@@ -5,7 +5,8 @@ import { countWords, formatDate, formatTime, newId } from "../session.js";
 import { currentStreak } from "../stats.js";
 import { getOrCreateTask1, task1Stage } from "../task1.js";
 import { MIN_REPORT_WORDS, TASK1_TYPES, TASK1_TYPE_LABELS, type Task1Entry } from "../types.js";
-import { fieldLabel, paragraphBreakdown, planBox, planReview, readOnlyText, sectionTitle, wordsLabel, writer } from "./common.js";
+import { fieldLabel, paragraphBreakdown, planReview, readOnlyText, sectionTitle, wordsLabel, writer } from "./common.js";
+import { timerBar } from "./timer.js";
 import { renderComments } from "./detail.js";
 
 export function renderTask1(ctx: AppContext): HTMLElement {
@@ -226,13 +227,6 @@ function setupStage(ctx: AppContext, e: Task1Entry): HTMLElement {
 
 function writingStage(ctx: AppContext, e: Task1Entry): HTMLElement {
   const submitBtn = h("button", { class: "btn primary" }, "submit report");
-  const plan = planBox({
-    value: e.plan,
-    onInput: (v) => {
-      e.plan = v;
-      ctx.persistSoon();
-    },
-  });
   const w = writer({
     value: e.report,
     placeholder: "write your report…",
@@ -262,7 +256,16 @@ function writingStage(ctx: AppContext, e: Task1Entry): HTMLElement {
   return h(
     "div",
     {},
-    header(e, "task 1 — plan and write your report"),
+    timerBar({
+      kind: "task1",
+      label: "writing",
+      state: e.timer,
+      onStart: (t) => {
+        e.timer = t;
+        ctx.persist();
+      },
+    }),
+    header(e, "task 1 — write your report"),
     h(
       "div",
       { class: "t1-layout" },
@@ -271,8 +274,6 @@ function writingStage(ctx: AppContext, e: Task1Entry): HTMLElement {
         "div",
         { class: "t1-work" },
         questionView(e),
-        fieldLabel("plan"),
-        plan,
         fieldLabel("report"),
         w.root,
         h("div", { class: "actions" }, h("span", { class: "hint" }, "drafts save automatically"), submitBtn),
@@ -317,7 +318,7 @@ export function renderTask1Detail(ctx: AppContext, e: Task1Entry): HTMLElement {
       sectionTitle(e.submittedAt ? "report" : "report draft (abandoned)", wordsLabel(e.report, MIN_REPORT_WORDS)),
       task1Image(e.imageId),
       questionView(e),
-      planReview(e.plan),
+      e.plan.trim() ? planReview(e.plan) : null,
       fieldLabel("report"),
       readOnlyText(e.report, "essay-text"),
       paragraphBreakdown(e.report),

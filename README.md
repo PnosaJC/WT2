@@ -9,7 +9,7 @@ Each day works like this:
 3. You **pick one** of the three and write the **full essay**. The essay starts with your introduction already filled in, and the counter shows your progress towards 250 words.
 4. You **submit**. The essay is then locked, and you can add **self-review notes** to it at any time.
 
-The **task 1** tab is for one Task 1 report a day, set up by hand: paste (Ctrl+V), drop or choose an image of the chart, map or diagram, type the question, and optionally tag its type. Then plan and write the report next to the image (150-word target, per-paragraph counts) and submit. An unfinished Task 1 is replaced with a fresh one on a new day; started reports stay in history as abandoned. Images are shrunk and stored in the browser's IndexedDB.
+The **task 1** tab is for one Task 1 report a day, set up by hand: paste (Ctrl+V), drop or choose an image of the chart, map or diagram, type the question, and optionally tag its type. Then write the report next to the image (150-word target, per-paragraph counts, 20-minute timer) and submit. An unfinished Task 1 is replaced with a fresh one on a new day; started reports stay in history as abandoned. Images are shrunk and stored in the browser's IndexedDB.
 
 Submitting **either** task counts towards the streak.
 

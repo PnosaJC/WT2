@@ -77,8 +77,8 @@ function questionView(e: Task1Entry): HTMLElement {
   );
 }
 
-function header(e: Task1Entry, step: string, extraClass = ""): HTMLElement {
-  return h("div", { class: `page-head ${extraClass}` }, h("div", { class: "step" }, step), h("div", { class: "meta-line" }, formatDate(e.date)));
+function header(e: Task1Entry, step: string): HTMLElement {
+  return h("div", { class: "page-head" }, h("div", { class: "step" }, step), h("div", { class: "meta-line" }, formatDate(e.date)));
 }
 
 // ---------- stage 1: set up the question ----------
@@ -265,11 +265,16 @@ function writingStage(ctx: AppContext, e: Task1Entry): HTMLElement {
         ctx.persist();
       },
     }),
-    header(e, "task 1 — write your report", "t1-head"),
     h(
       "div",
       { class: "t1-layout" },
-      h("div", { class: "t1-visual" }, task1Image(e.imageId), h("div", { class: "hint" }, "click the image to enlarge")),
+      h(
+        "div",
+        { class: "t1-visual" },
+        header(e, "task 1 — write your report"),
+        task1Image(e.imageId),
+        h("div", { class: "hint" }, "click the image to enlarge"),
+      ),
       h(
         "div",
         { class: "t1-work" },

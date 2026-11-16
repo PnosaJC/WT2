@@ -770,9 +770,10 @@ a:focus-visible {
   align-items: start;
 }
 
-/* Sit the image + report row directly under the Task 1 heading, with no extra gap. */
-.page-head.t1-head {
-  margin-bottom: 0.5rem;
+/* On the Task 1 writing page the heading sits atop the left column, so the question
+   and report (right column) line up with the heading instead of starting below it. */
+.t1-visual .page-head {
+  margin-bottom: 1rem;
 }
 
 .t1-visual {

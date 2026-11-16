@@ -88,6 +88,8 @@ export interface Task1Entry {
   report: string;
   startedAt: string | null; // image + question locked
   submittedAt: string | null;
+  /** Writing countdown. Absent until the user starts it. */
+  timer?: TimerState | null;
   /** Set when a started report is left unfinished and a new day begins. */
   abandonedAt?: string | null;
   comments: Comment[];

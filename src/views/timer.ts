@@ -1,10 +1,10 @@
 import { h } from "../dom.js";
 import type { TimerState } from "../types.js";
 
-export type TimerKind = "plan" | "essay";
+export type TimerKind = "plan" | "essay" | "task1";
 
 const SETTINGS_KEY = "wt2:timer-minutes";
-const DEFAULT_MINUTES: Record<TimerKind, number> = { plan: 15, essay: 40 };
+const DEFAULT_MINUTES: Record<TimerKind, number> = { plan: 15, essay: 40, task1: 20 };
 const MIN = 1;
 const MAX = 180;
 

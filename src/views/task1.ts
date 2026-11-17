@@ -5,7 +5,17 @@ import { countWords, formatDate, formatTime, newId } from "../session.js";
 import { currentStreak } from "../stats.js";
 import { getOrCreateTask1, task1Stage } from "../task1.js";
 import { MIN_REPORT_WORDS, TASK1_TYPES, TASK1_TYPE_LABELS, type Task1Entry } from "../types.js";
-import { fieldLabel, paragraphBreakdown, planReview, readOnlyText, sectionTitle, wordsLabel, writer } from "./common.js";
+import {
+  copyButton,
+  fieldLabel,
+  formatForCopy,
+  paragraphBreakdown,
+  planReview,
+  readOnlyText,
+  sectionTitle,
+  wordsLabel,
+  writer,
+} from "./common.js";
 import { timerBar } from "./timer.js";
 import { renderComments } from "./detail.js";
 
@@ -327,6 +337,9 @@ export function renderTask1Detail(ctx: AppContext, e: Task1Entry): HTMLElement {
       fieldLabel("report"),
       readOnlyText(e.report, "essay-text"),
       paragraphBreakdown(e.report),
+      e.submittedAt
+        ? h("div", { class: "copy-row" }, copyButton(() => formatForCopy(e.question, e.report), "copy question + report"))
+        : null,
     ),
     e.submittedAt ? renderComments(ctx, e) : null,
   );

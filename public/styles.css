@@ -901,3 +901,29 @@ a:focus-visible {
     margin-left: 0;
   }
 }
+
+/* ---------- copy button (history) ---------- */
+
+.copy-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.copy-btn {
+  font-size: 0.8rem;
+  color: var(--sub);
+  border: 1px solid var(--sub-alt);
+  border-radius: var(--radius);
+  padding: 0.35rem 0.8rem;
+}
+
+.copy-btn:hover {
+  color: var(--text);
+  border-color: var(--sub);
+}
+
+.copy-btn.done {
+  color: var(--main);
+  border-color: var(--main);
+}

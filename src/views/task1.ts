@@ -321,11 +321,18 @@ export function renderTask1Detail(ctx: AppContext, e: Task1Entry): HTMLElement {
     { class: "detail" },
     h(
       "div",
-      { class: "meta-line" },
-      formatDate(e.date),
-      " · task 1 · ",
-      task1StatusLabel(e),
-      e.submittedAt ? ` · ${formatTime(e.submittedAt)}` : null,
+      { class: "detail-head" },
+      h(
+        "div",
+        { class: "meta-line" },
+        formatDate(e.date),
+        " · task 1 · ",
+        task1StatusLabel(e),
+        e.submittedAt ? ` · ${formatTime(e.submittedAt)}` : null,
+      ),
+      e.submittedAt && e.report.trim()
+        ? copyButton(() => formatForCopy(e.question, e.report), "copy question + report")
+        : null,
     ),
     h(
       "section",
@@ -337,9 +344,6 @@ export function renderTask1Detail(ctx: AppContext, e: Task1Entry): HTMLElement {
       fieldLabel("report"),
       readOnlyText(e.report, "essay-text"),
       paragraphBreakdown(e.report),
-      e.submittedAt
-        ? h("div", { class: "copy-row" }, copyButton(() => formatForCopy(e.question, e.report), "copy question + report"))
-        : null,
     ),
     e.submittedAt ? renderComments(ctx, e) : null,
   );

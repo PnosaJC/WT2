@@ -904,26 +904,34 @@ a:focus-visible {
 
 /* ---------- copy button (history) ---------- */
 
-.copy-row {
+.detail-head {
   display: flex;
-  justify-content: flex-end;
-  margin-top: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.detail-head .meta-line {
+  margin-bottom: 0;
 }
 
 .copy-btn {
+  flex: none;
   font-size: 0.8rem;
-  color: var(--sub);
-  border: 1px solid var(--sub-alt);
+  color: var(--main);
+  border: 1px solid var(--main);
   border-radius: var(--radius);
   padding: 0.35rem 0.8rem;
 }
 
 .copy-btn:hover {
-  color: var(--text);
-  border-color: var(--sub);
+  color: var(--bg);
+  background: var(--main);
 }
 
 .copy-btn.done {
-  color: var(--main);
-  border-color: var(--main);
+  color: var(--bg);
+  background: var(--main);
 }

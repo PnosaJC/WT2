@@ -133,6 +133,57 @@ export function readOnlyText(text: string, className = ""): HTMLElement {
     : h("div", { class: `readonly empty ${className}` }, "—");
 }
 
+/** "Question:\n…\n\nAnswer:\n…" — the format used by the copy button. */
+export function formatForCopy(question: string, answer: string): string {
+  return `Question:\n${question.trim()}\n\nAnswer:\n${answer.trim()}\n`;
+}
+
+async function writeClipboard(text: string): Promise<void> {
+  if (navigator.clipboard?.writeText) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return;
+    } catch {
+      // fall through to the legacy method (e.g. permission denied)
+    }
+  }
+  const ta = document.createElement("textarea");
+  ta.value = text;
+  ta.setAttribute("readonly", "");
+  ta.style.position = "fixed";
+  ta.style.opacity = "0";
+  document.body.append(ta);
+  ta.select();
+  const ok = document.execCommand("copy");
+  ta.remove();
+  if (!ok) throw new Error("copy failed");
+}
+
+/** Small button that copies `getText()` and briefly shows "copied". */
+export function copyButton(getText: () => string, label = "copy"): HTMLButtonElement {
+  let timer: number | undefined;
+  const btn = h("button", {
+    class: "link-btn copy-btn",
+    type: "button",
+    title: "copy question and answer",
+    onclick: async () => {
+      window.clearTimeout(timer);
+      try {
+        await writeClipboard(getText());
+        btn.textContent = "copied ✓";
+        btn.classList.add("done");
+      } catch {
+        btn.textContent = "couldn't copy";
+      }
+      timer = window.setTimeout(() => {
+        btn.textContent = label;
+        btn.classList.remove("done");
+      }, 1600);
+    },
+  }, label);
+  return btn;
+}
+
 export function sectionTitle(text: string, extra?: HTMLElement | string): HTMLElement {
   return h("h2", { class: "section-title" }, text, extra ? h("span", { class: "section-extra" }, extra) : null);
 }

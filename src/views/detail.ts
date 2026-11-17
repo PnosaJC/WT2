@@ -2,7 +2,17 @@ import type { AppContext } from "../context.js";
 import { h } from "../dom.js";
 import { chosenQuestion, formatDate, formatTime, newId } from "../session.js";
 import { MIN_ESSAY_WORDS, type Comment, type Session } from "../types.js";
-import { fieldLabel, paragraphBreakdown, planReview, questionBlock, readOnlyText, sectionTitle, wordsLabel } from "./common.js";
+import {
+  copyButton,
+  fieldLabel,
+  formatForCopy,
+  paragraphBreakdown,
+  planReview,
+  questionBlock,
+  readOnlyText,
+  sectionTitle,
+  wordsLabel,
+} from "./common.js";
 
 export function statusLabel(s: Session): string {
   if (s.abandonedAt) return "abandoned";
@@ -29,6 +39,9 @@ export function renderSessionDetail(ctx: AppContext, s: Session): HTMLElement {
         questionBlock(chosen),
         readOnlyText(s.essay, "essay-text"),
         paragraphBreakdown(s.essay),
+        s.submittedAt
+          ? h("div", { class: "copy-row" }, copyButton(() => formatForCopy(chosen.text, s.essay), "copy question + essay"))
+          : null,
       ),
     );
   }

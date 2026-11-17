@@ -39,9 +39,6 @@ export function renderSessionDetail(ctx: AppContext, s: Session): HTMLElement {
         questionBlock(chosen),
         readOnlyText(s.essay, "essay-text"),
         paragraphBreakdown(s.essay),
-        s.submittedAt
-          ? h("div", { class: "copy-row" }, copyButton(() => formatForCopy(chosen.text, s.essay), "copy question + essay"))
-          : null,
       ),
     );
   }
@@ -77,11 +74,18 @@ export function renderSessionDetail(ctx: AppContext, s: Session): HTMLElement {
     { class: "detail" },
     h(
       "div",
-      { class: "meta-line" },
-      formatDate(s.date),
-      " · ",
-      statusLabel(s),
-      s.submittedAt ? ` · ${formatTime(s.submittedAt)}` : null,
+      { class: "detail-head" },
+      h(
+        "div",
+        { class: "meta-line" },
+        formatDate(s.date),
+        " · ",
+        statusLabel(s),
+        s.submittedAt ? ` · ${formatTime(s.submittedAt)}` : null,
+      ),
+      chosen && s.submittedAt && s.essay.trim()
+        ? copyButton(() => formatForCopy(chosen.text, s.essay), "copy question + essay")
+        : null,
     ),
     ...parts,
   );
